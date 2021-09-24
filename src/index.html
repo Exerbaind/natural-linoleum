@@ -1,0 +1,149 @@
+<?php header("Content-Type:text/html;charset=utf-8");?>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Натуральный линолеум - один из самых долговечных и экологичных напольных покрытий в мире. Этот продукт достоин восхищения и обожания. Натуральный линолеум Мармолеум – это сама природа в Вашем доме."
+    />
+    <meta name="keywords" content="натуральный линолеум мармолеум" />
+    <link rel="stylesheet" href="./style/main.min.css" />
+    <title>Линолеум натуральный</title>
+  </head>
+  <body>
+    @@include('./components/_header.html')
+    <main class="index">
+      <section class="defenition">
+        <div class="defenition__big-circle">
+          <div class="defenition__small-circle">
+            <h1 class="small-circle__title">Мармолеум</h1>
+            <p class="small-circle__subtitle">это...</p>
+          </div>
+          <div class="big-circle__selector big-circle__selector--first">
+            <p>История</p>
+          </div>
+          <div class="big-circle__selector big-circle__selector--second">
+            <p>Мифы</p>
+          </div>
+          <div class="big-circle__selector big-circle__selector--third">
+            <p>Сертификаты</p>
+          </div>
+          <div class="big-circle__selector big-circle__selector--fourth">
+            <p>Производство</p>
+          </div>
+          <div class="big-circle__selector big-circle__selector--fifth">
+            <p>Свойства</p>
+          </div>
+          <div class="big-circle__selector big-circle__selector--sixth">
+            <p>Применение</p>
+          </div>
+        </div>
+        <div class="definition__phone-call">
+          <div class="definition__phone-icon-container">
+            <img
+              src="./assets/icons/phone.svg"
+              alt=""
+              class="definition__phone-call-icon"
+            />
+          </div>
+        </div>
+        <a class="definition__arrows-link" href="#about">
+          <img
+            src="./assets/icons/two_arrows.svg"
+            alt=""
+            class="definition__arrows"
+          />
+        </a>
+      </section>
+      <section class="about" id="about">
+        <div class="app-container">
+          <div class="about__container">
+            <div class="about__information">
+              <div class="information__image-block">
+                <img
+                  src="./assets/images/main/photo-1.png"
+                  alt=""
+                  class="information__image"
+                />
+                <img
+                  src="./assets/images/main/small-article.png"
+                  alt=""
+                  class="information__image-article"
+                />
+              </div>
+              <div class="information__content">
+                <h2 class="information__content-title">Натуральный линолеум</h2>
+                <p class="information__content-text">
+                  Натуральный линолеум - одно из самых долговечных и экологичных
+                  напольных покрытий в мире. Этот продукт достоин восхищения и
+                  обожания. Натуральный линолеум Мармолеум – это сама природа в
+                  Вашем доме.
+                </p>
+                <p class="information__content-text orange">
+                  Срок службы 50 лет!
+                </p>
+              </div>
+            </div>
+            <div class="about__facts">
+              <div class="facts__block">
+                <p class="facts__title">
+                  Удивительные факты<br />
+                  о натуральном линолеуме:
+                </p>
+                <ul class="facts__list">
+                  <li class="facts__item">Ему уже более 158 лет</li>
+                  <li class="facts__item">В нем заложена сила природы</li>
+                  <li class="facts__item">Он полезен для здоровья</li>
+                  <li class="facts__item">
+                    Это дары Земли, соединенные в единое покрытие
+                  </li>
+                  <li class="facts__item">Его боятся бактерии</li>
+                  <li class="facts__item">
+                    Его создателя зовут - Фредерик Уолтон
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="message">
+        <div class="message__container">
+          <div class="app-container">
+            <div class="message__content">
+              <h3 class="message__title">
+                Мы развеем все мифы<br />и ответим на все вопросы
+              </h3>
+              <div class="message__description">
+                <h4 class="description__title">
+                  Почему мы так смело заявляем об этом?
+                </h4>
+                <p class="description__text">
+                  Мы уже более 6 лет являемся официальным дистрибутором завода
+                  Forbo Flooring – мировым производителем натурального линолеума
+                  Marmoleum.
+                </p>
+                <p class="description__text">
+                  Мы не просто продаем натуральный линолеум, мы его изучаем,
+                  тестируем, укладываем и восстанавливаем. Мы с уверенностью
+                  можем заявить, он не боится даже зеленки. Натуральный линолеум
+                  лежит у нас дома и у множества наших довольных клиентов.
+                </p>
+                <p class="description__text orange-text">
+                  Мы расскажем всю правду и откроем тайны этого удивительного
+                  напольного покрытия. Вперед!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('./components/_footer.html')
+
+    <script src="./script/header.min.js"></script>
+  </body>
+</html>

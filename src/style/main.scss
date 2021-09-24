@@ -1,0 +1,49 @@
+// Миксин для подключения шрифтов через gulp
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"),
+      url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+@import "./variables.scss";
+@import "./fonts.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app-container {
+  width: 1500px;
+  @media (max-width: 1500px) {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+// Стили для компонент
+@import "./components-style/header.scss";
+@import "./components-style/footer.scss";
+
+// Стили для страниц
+.index {
+  @import "./pages-styles/index.scss";
+}
+
+.collection {
+  @import "./pages-styles/collections.scss";
+}
