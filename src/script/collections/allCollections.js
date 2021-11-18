@@ -42,7 +42,7 @@ function AllCollectionsList() {
       name: "Splash",
       property: "",
       img: "./assets/images/collections/recomended_collections/splash.png",
-      link: "marmoleum-splash.html",
+      link: "marmoleum-splash.htm",
     },
     {
       name: "Fresco",
@@ -54,7 +54,7 @@ function AllCollectionsList() {
       name: "Terra",
       property: "",
       img: "./assets/images/collections/recomended_collections/terra.png",
-      link: "marmoleum-terra.html",
+      link: "marmoleum-terra.htm",
     },
     {
       name: "Concrete",
