@@ -130,10 +130,10 @@ function AllCollectionsList() {
       link: "marmoleum-bulletin-board.htm",
     },
     {
-      name: "Desk Top",
+      name: "Furniture Linoleum",
       property: "",
       img: "./assets/images/collections/recomended_collections/desktop.png",
-      link: "marmoleum-desk-top.htm",
+      link: "marmoleum-furniture-linoleum.htm",
     },
     {
       name: "Corkment",

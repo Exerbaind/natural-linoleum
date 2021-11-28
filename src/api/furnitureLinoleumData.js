@@ -1,4 +1,4 @@
-function DeskTopArticles() {
+function FurnitureLinoleumArticles() {
     return [
       {
         id: 0,
@@ -129,7 +129,7 @@ function DeskTopArticles() {
     ];
   }
   
-  function DeskTopTable() {
+  function FurnitureLinoleumTable() {
     return [
       {
         name: "Ширина рулона (м.пог.), EN-ISO 24341",

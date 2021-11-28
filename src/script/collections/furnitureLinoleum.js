@@ -1,14 +1,14 @@
-@@include("../../api/deskTopData.js");
+@@include("../../api/furniturelinoleumData.js");
 @@include("../logic/createArticle.js");
 @@include("../logic/createTable.js");
 @@include("../logic/createFullScreenArticles.js");
 @@include("../logic/createRecomendedCollection.js");
 @@include("./allCollections.js");
 
-const articles = DeskTopArticles();
-const table = DeskTopTable();
+const articles = FurnitureLinoleumArticles();
+const table = FurnitureLinoleumTable();
 const recomendedCollections = AllCollectionsList();
-const currentCollectionName = "Desk Top";
+const currentCollectionName = "Furniture Linoleum";
 
 const articlesList = document.querySelector(".articles__list");
 const recordsTable = document.querySelector(".table__body");
