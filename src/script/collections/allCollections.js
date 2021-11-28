@@ -6,13 +6,13 @@ function AllCollectionsList() {
       img: "./assets/images/collections/recomended_collections/real.png",
       link: "marmoleum-real.htm",
     },
-    {
-      name: "Striato textura",
-      property: "",
-      img:
-        "./assets/images/collections/recomended_collections/striato_textura.png",
-      link: "marmoleum-striato-textura.htm",
-    },
+    // {
+    //   name: "Striato textura",
+    //   property: "",
+    //   img:
+    //     "./assets/images/collections/recomended_collections/striato_textura.png",
+    //   link: "marmoleum-striato-textura.htm",
+    // },
     {
       name: "Walton cirrus",
       property: "",
@@ -104,24 +104,24 @@ function AllCollectionsList() {
       img: "./assets/images/collections/recomended_collections/decibel.png",
       link: "marmoleum-decibel.htm",
     },
-    {
-      name: "Meets Harlekino",
-      property: "",
-      img: "./assets/images/collections/recomended_collections/harlekino.png",
-      link: "marmoleum-harlekino.htm",
-    },
-    {
-      name: "Meets Plato",
-      property: "",
-      img: "./assets/images/collections/recomended_collections/plato.png",
-      link: "marmoleum-plato.htm",
-    },
-    {
-      name: "Meets Proust",
-      property: "",
-      img: "./assets/images/collections/recomended_collections/proust.png",
-      link: "marmoleum-proust.htm",
-    },
+    // {
+    //   name: "Meets Harlekino",
+    //   property: "",
+    //   img: "./assets/images/collections/recomended_collections/harlekino.png",
+    //   link: "marmoleum-harlekino.htm",
+    // },
+    // {
+    //   name: "Meets Plato",
+    //   property: "",
+    //   img: "./assets/images/collections/recomended_collections/plato.png",
+    //   link: "marmoleum-plato.htm",
+    // },
+    // {
+    //   name: "Meets Proust",
+    //   property: "",
+    //   img: "./assets/images/collections/recomended_collections/proust.png",
+    //   link: "marmoleum-proust.htm",
+    // },
     {
       name: "Bulletin Board",
       property: "",
