@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino выполнена на основе коллекции натурального линолеума Forbo Marmoleum Real. Семь ярких цветов и семь сдержанных оттенков, стилизованных под мрамор, помогут создать очень красивый классический интерьер." />
     <meta
-      name="keywords"
-      content="forbo harlekino форбо харлекино мармолеум"
+      name="description"
+      content="Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino выполнена на основе коллекции натурального линолеума Forbo Marmoleum Real. Семь ярких цветов и семь сдержанных оттенков, стилизованных под мрамор, помогут создать очень красивый классический интерьер."
     />
+    <meta name="keywords" content="forbo harlekino форбо харлекино мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
     <title>Forbo Marmoleum Harlekino натуральный линолеум</title>
   </head>
@@ -27,9 +27,15 @@
         <div class="intro__content">
           <div class="intro__content-block">
             <h1 class="intro__title">
-                Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino
+              Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino
             </h1>
-            <p class="intro__text">Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino выполнена на основе коллекции натурального линолеума Forbo Marmoleum Real. Семь ярких цветов и семь сдержанных оттенков, стилизованных под мрамор, помогут создать очень красивый классический интерьер.</p>
+            <p class="intro__text">
+              Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino
+              выполнена на основе коллекции натурального линолеума Forbo
+              Marmoleum Real. Семь ярких цветов и семь сдержанных оттенков,
+              стилизованных под мрамор, помогут создать очень красивый
+              классический интерьер.
+            </p>
           </div>
         </div>
       </section>
@@ -37,42 +43,27 @@
         <div class="about__layer">
           <div class="app-container">
             <div class="about__sections">
-              <div class="about__col">
-                <div class="about__marmoleum">
-                  <h2 class="about__marmoleum-title">
-                    Вся правда о мармолеуме:
-                  </h2>
-                <ul class="about__marmoleum-list">
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./marmoleum-eto.htm">Мармолеум - это...</a>
-                                    </li>
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./istoriya-marmoleuma.htm">История</a>
-                                    </li>
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./proizvodstvo-marmoleuma.htm">Производство</a>
-                                    </li>
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./primenenie-marmoleuma.htm">Применение</a>
-                                    </li>
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./svoistva-marmoleuma.htm">Свойства</a>
-                                    </li>
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./sertifikati-marmoleuma.htm">Сертификаты</a>
-                                    </li>
-                                    <li class="about__marmoleum-item">
-                                        <a class="about__marmoleum-link" href="./myths-o-marmoleume.htm">Мифы о мармолеуме</a>
-                                    </li>
-                                </ul>
-                </div>
-              </div>
-              <div class="about__col">
-                <div class="about__collection">
-                  <h3 class="about__collection-title">О мармолеуме Харлекино</h3>
-                  <p class="about__collection-text">Дизайнерская мозаика для пола Marmoleum Harlekino - это сердце коллекции Meets Mendini, разработанной экспертами Форбо совместно с итальянским архитектором и дизайнером Алессандро Мендини. Арлекин – образ, с которым себя ассоциирует сам художник. Собственно, форма фрагмента готовой дизайнерской мозаики Marmoleum Meets Mendini Harlekino напоминает колпак этого персонажа.</p>
-                  <p class="about__collection-text">Покрытие поможет создать яркий, нетривиальный интерьер для таких типов помещений, как ресторан, бутик, галерея. Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino подойдет для дизайн-проектов в классическом стиле. Она хорошо сочетается с мрамором. Интерьеры, в которых используется мозаика Мармолеум Мендини Арлекино, не потеряют с годами своей актуальности.</p>
-                </div>
+              @@include('./components/_about-marmoleum-links.html')
+              <div class="about__collection">
+                <h3 class="about__collection-title">О мармолеуме Харлекино</h3>
+                <p class="about__collection-text">
+                  Дизайнерская мозаика для пола Marmoleum Harlekino - это сердце
+                  коллекции Meets Mendini, разработанной экспертами Форбо
+                  совместно с итальянским архитектором и дизайнером Алессандро
+                  Мендини. Арлекин – образ, с которым себя ассоциирует сам
+                  художник. Собственно, форма фрагмента готовой дизайнерской
+                  мозаики Marmoleum Meets Mendini Harlekino напоминает колпак
+                  этого персонажа.
+                </p>
+                <p class="about__collection-text">
+                  Покрытие поможет создать яркий, нетривиальный интерьер для
+                  таких типов помещений, как ресторан, бутик, галерея. Напольная
+                  дизайнерская мозаика Marmoleum Meets Mendini Harlekino
+                  подойдет для дизайн-проектов в классическом стиле. Она хорошо
+                  сочетается с мрамором. Интерьеры, в которых используется
+                  мозаика Мармолеум Мендини Арлекино, не потеряют с годами своей
+                  актуальности.
+                </p>
               </div>
             </div>
           </div>

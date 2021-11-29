@@ -38,6 +38,7 @@ body {
 // Стили для компонент
 @import "./components-style/header.scss";
 @import "./components-style/footer.scss";
+@import "./components-style/about-marmoleum-links.scss";
 
 // Стили для страниц
 .index {
@@ -46,4 +47,8 @@ body {
 
 .collection {
   @import "./pages-styles/collections.scss";
+}
+
+.marmoleum-eto {
+  @import "./pages-styles/marmoleum-eto.scss";
 }
