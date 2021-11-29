@@ -160,9 +160,19 @@
 
 .articles {
   background-color: white;
-  padding: 70px 0;
+  padding: 0 0 50px 0;
   display: flex;
   justify-content: center;
+}
+
+.articles__title {
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  color: #c29e71;
+  margin-top: 50px;
 }
 
 .articles__list {
@@ -170,6 +180,7 @@
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
   grid-gap: 30px;
   padding: 0 30px;
+  margin-top: 50px;
   @media (max-width: 1100px) {
     grid-template-columns: 3fr 3fr 3fr 3fr;
   }
