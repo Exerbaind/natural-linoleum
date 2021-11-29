@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .page-articles__title {
@@ -17,6 +18,7 @@
   color: #ffe7ca;
   text-align: center;
   font-weight: 300;
+  width: 100%;
   @media (max-width: $tablet) {
     font-size: 16px;
     line-height: 18px;
@@ -37,7 +39,7 @@
   grid-template-columns: 4fr 4fr 4fr;
   grid-gap: 30px;
   margin-bottom: 10px;
-  @media (max-width: $tablet) {
+  @media (max-width: 1000px) {
     grid-template-columns: 6fr 6fr;
   }
   @media (max-width: $mobile) {
@@ -135,7 +137,8 @@
   }
   @media (max-width: $mobile) {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 16px;
+    padding: 0 20px;
   }
 }
 
