@@ -113,6 +113,52 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.about__side {
+  background-image: url(../../assets/images/collections/background_small.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 146px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px;
+  @media (max-width: $mobile) {
+    padding: 10px;
+    justify-content: center;
+  }
+  @media (max-width: 330px) {
+    padding: 5px
+  }
+
+  img {
+    margin-right: 10px;
+    @media (max-width: $tablet) {
+      height: 60px;
+      width: 60px;
+    }
+    @media (max-width: $mobile) {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  p {
+    font-size: 32px;
+    line-height: 37px;
+    color: #F2D78F;
+    font-weight: 300;
+    @media (max-width: $tablet) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    @media (max-width: $mobile) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
 }
 
 .about__sections {
