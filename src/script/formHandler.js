@@ -1,5 +1,6 @@
 const formHandler = document.querySelector('.intro__link');
-const form = document.querySelector('.form-wrapper')
+const form = document.querySelector('.form-wrapper');
+const closeFormIcon = document.getElementById('close-form');
 
 function closeForm () {
     form.classList.remove('form-wrapper--active');
@@ -11,9 +12,9 @@ function openForm() {
     document.body.classList.add('no-overflow');
 }
 
-formHandler.addEventListener('click', () => {
-  openForm();
-})
+formHandler.addEventListener('click', openForm);
+
+closeFormIcon.addEventListener('click', closeForm);
 
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {

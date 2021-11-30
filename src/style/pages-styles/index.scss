@@ -1,3 +1,10 @@
+.app-container {
+  width: 1500px;
+  @media (max-width: 1500px) {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
 .defenition {
   background-image: url(../assets/images/main/backgr.jpg);
   background-position: center;

@@ -25,9 +25,10 @@
 .form-container {
   width: 585px;
   background-color: white;
-  max-height: 90vh;
+  height: 100vh;
   overflow-y: auto;
   @media screen and (max-width: $mobile) {
+    max-height: 90vh;
     width: 100%;
   }
 }
@@ -39,6 +40,7 @@
   background-position: center;
   padding: 30px 0;
   text-align: center;
+  position: relative;
   @media screen and (max-width: $mobile) {
     padding: 13px 0;
   }
@@ -52,6 +54,11 @@
       font-size: 16px;
       line-height: 18px;
     }
+  }
+  img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
 }
 
