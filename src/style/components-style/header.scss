@@ -21,16 +21,26 @@
   }
 }
 .header__top-title {
-  font-weight: 400;
-  line-height: 18px;
+  font-weight: 300;
   font-size: 24px;
   color: #fff4e7;
+  @media screen and (max-width: $mobile) {
+    font-size: 16px;
+  }
 }
 .header__top-subtitle {
   font-size: 12px;
   font-weight: 300;
   color: #ffe7ca;
   letter-spacing: 1px;
+  display: block;
+  @media screen and (max-width: $mobile) {
+    max-width: 200px;
+    font-size: 10px;
+  }
+  @media (max-width: 330px) {
+    font-size: 8px;
+  }
 }
 
 .header__top-phones {
@@ -41,15 +51,13 @@
     margin: 0;
     align-items: flex-end;
   }
-  @media (max-width: $mobile) {
-    display: none;
-  }
 }
 .header-phone {
   margin: 0 10px;
   font-weight: 300;
   font-size: 18px;
   color: #ffe7ca;
+  white-space: nowrap;
   @media (max-width: $tablet) {
     margin: 2px 0;
     font-size: 14px;
