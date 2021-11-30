@@ -165,44 +165,24 @@
   }
 }
 
-.properties {
-  background-image: url(../../assets/images/marmoleum-eto/background_small.jpg);
+.section-header {
+  background-image: url(../../assets/images/istoriya-marmoleuma/background_small.jpg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
-}
-
-.properties-content {
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  padding: 60px;
   @media screen and (max-width: 1200px) {
-    padding: 50px 32px;
+    padding: 50px 30px;
   }
   @media (max-width: $tablet) {
     padding: 30px;
+    justify-content: flex-start;
   }
 }
 
-.properties-content__icons {
-  @media screen and (max-width: 1200px) {
-    display: none;
-  }
-  .icons__icon {
-    margin: 0 30px;
-    @media screen and (max-width: 1350px) {
-      margin: 0 15px;
-    }
-    @media screen and (max-width: 1250px) {
-      margin: 0 5px;
-    }
-  }
-}
-
-.properties-content__text {
+.section-header__title {
   font-weight: 300;
   font-size: 38px;
   line-height: 44px;
@@ -214,17 +194,17 @@
   }
 }
 
-.about-properties {
+.text-list {
   background-color: white;
   padding: 60px 0;
   display: flex;
   justify-content: center;
 }
 
-.about-properties__item {
+.text-list__item {
   display: flex;
   align-items: center;
-  margin-top: -50px;
+  margin-top: 50px;
   &:first-child {
     margin-top: 0;
   }
@@ -250,10 +230,6 @@
       margin-left: 0;
     }
   }
-}
-
-.extra-margin {
-  margin-top: 30px;
 }
 
 .right-side {
@@ -294,73 +270,26 @@
   }
 }
 
-.design-header {
-  background-image: url(../../assets/images/marmoleum-eto/background_small.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}
-
-.design-header-content {
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  @media screen and (max-width: 1200px) {
-    padding: 50px 32px;
-  }
-  @media (max-width: $tablet) {
-    padding: 30px;
-  }
-}
-
-.design-header-content__icons {
-  @media screen and (max-width: 1200px) {
-    display: none;
-  }
-  .design-header-icons__icon {
-    margin: 0;
-    @media (max-width: 1450px) {
-      height: 90px;
-      width: 90px;
-    }
-    @media (max-width: 1300px) {
-      height: 70px;
-      width: 70px;
-    }
-  }
-}
-
-.design-header-content__text {
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 44px;
-  color: #f2d78f;
-  text-transform: uppercase;
-  @media (max-width: $tablet) {
-    font-size: 18px;
-    line-height: 18px;
-  }
-}
-
-.design-block {
+.block-text-image {
   display: flex;
   @media (max-width: 1100px) {
     flex-direction: column;
   }
 }
 
-.design-block__content {
+.block-text-image__content {
   padding: 105px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  position: relative;
   background-color: #53514c;
   width: 50%;
+  @media (max-width: 1500px) {
+    padding: 60px;
+  }
+  @media (max-width: 1250px) {
+    padding: 40px;
+  }
   @media (max-width: 1100px) {
     width: 100%;
     order: 2;
@@ -370,7 +299,7 @@
   }
 }
 
-.design-block__title {
+.block-text-image__title {
   font-size: 38px;
   line-height: 44px;
   color: #f0cca0;
@@ -381,7 +310,7 @@
   }
 }
 
-.design-block__text {
+.block-text-image__text {
   margin-top: 20px;
   font-size: 20px;
   line-height: 30px;
@@ -393,22 +322,7 @@
   }
 }
 
-.design-block__article {
-  position: absolute;
-  right: 0%;
-  top: 50%;
-  transform: translate(50%, -50%);
-  @media (max-width: 1100px) {
-    right: 50%;
-    top: 0;
-  }
-  @media (max-width: $mobile) {
-    height: 82px;
-    width: 82px;
-  }
-}
-
-.design-block__image {
+.block-text-image__image {
   width: 50%;
   @media (max-width: 1100px) {
     width: 100%;
@@ -416,35 +330,44 @@
   }
 }
 
-.design-mobile {
-  display: none;
-  @media (max-width: $tablet) {
-    background-image: url(../../assets/images/marmoleum-eto/background_small.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 0;
+.block-text-image__with-text {
+  width: 50%;
+  background-color: #53514C;
+  @media (max-width: 1100px) {
+    width: 100%;
+    order: 1;
   }
-}
-
-.design-mobile-icons {
-  height: 50px;
-  width: 50px;
-}
-
-.screen-type__name {
-  .desktop {
-    display: inline;
-    @media screen and (max-width: $mobile) {
-      display: none;
+  @media screen and (max-width: $tablet) {
+    background-color: rgba($color: #040404, $alpha: 0.9);
+  }
+  .block-text-image__image {
+    width: 100%;
+  }
+  p {
+    padding: 45px 32px;
+    color: #F0CCA0;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    @media screen and (max-width: $tablet) {
+      font-size: 18px;
     }
-  }
-  .mobile {
-    display: none;
-    @media screen and (max-width: $mobile) {
-      display: inline;
+    span {
+      display: block;
+      font-size: 24px;
+      margin-top: 10px;
+      @media screen and (max-width: $tablet) {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      a {
+        text-decoration: none;
+        outline: none;
+        color: #F0CCA0;
+      }
+    }
+    @media screen and (max-width: $tablet) {
+      padding: 20px 32px;
     }
   }
 }
