@@ -12,6 +12,7 @@ let path = {
     images: `${project_folder}/assets/`,
     // icons: `${project_folder}/assets/icons`,
     fonts: `${project_folder}/fonts`,
+    php: `${project_folder}/php`,
   },
   src: {
     html: `${source_folder}/*.{html,htm}`,
@@ -21,6 +22,7 @@ let path = {
     images: `${source_folder}/assets/**/*.{jpg,png,svg,gif,ico,webp,jpeg}`,
     // icons: `${source_folder}/assets/icons`,
     fonts: `${source_folder}/fonts/*.ttf`,
+    php: `${source_folder}/php/*.php`,
   },
   watch: {
     html: `${source_folder}/**/*.{html,htm}`,
@@ -28,6 +30,7 @@ let path = {
     js: `${source_folder}/script/**/*.js`,
     api: `${source_folder}/api/**/*.js`,
     images: `${source_folder}/assets/images/**/*.{jpg,png,svg,gif,ico,webp,jpeg}`,
+    php: `${source_folder}/php/*.php`,
   },
   clean: `./${project_folder}/`,
 };
@@ -143,12 +146,19 @@ function fonts(params) {
   return src(path.src.fonts).pipe(ttf2woff2()).pipe(dest(path.build.fonts));
 }
 
+function php() {
+  return src(path.src.php)
+    .pipe(dest(path.build.php))
+    .pipe(browsersync.stream());
+}
+
 function watchFiles(params) {
   gulp.watch([path.watch.html], html);
   gulp.watch([path.watch.css], css);
   gulp.watch([path.watch.js], js);
   gulp.watch([path.watch.images], images);
   gulp.watch([path.watch.api], api);
+  gulp.watch([path.watch.php], php);
 }
 
 function clean(params) {
@@ -198,7 +208,7 @@ gulp.task("otf2ttf", function () {
 
 let build = gulp.series(
   clean,
-  gulp.parallel(css, html, js, images, fonts, api),
+  gulp.parallel(css, html, js, images, fonts, api, php),
   fontsStyle
 );
 let watch = gulp.parallel(build, watchFiles, browserSync);
@@ -210,6 +220,7 @@ exports.api = api;
 exports.images = images;
 exports.fonts = fonts;
 exports.fontsStyle = fontsStyle;
+exports.php = php;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
