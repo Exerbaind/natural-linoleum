@@ -1,0 +1,128 @@
+<?php header("Content-Type:text/html;charset=utf-8");?>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Мы команда профессионалов в сфере напольных покрытий. Мы —
+      Эксперты по натуральному линолеуму — занимаемся напольными
+      покрытиями уже 14 лет. Изучаем их, укладываем, продаем,
+      ухаживаем и восстанавливаем."
+    />
+    <meta
+      name="keywords"
+      content="гельстер эксперт по мармолеуму, о компании гельстер, тск гельстер"
+    />
+    <link rel="stylesheet" href="./style/main.min.css" />
+    <title>Гельстер - эксперт по мармолеуму</title>
+  </head>
+  <body>
+    @@include('./components/_header.html')
+    <main class="o-nas">
+      <section class="about">
+        <div class="about__layer">
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__page">
+              <img
+                src="./assets/images/o-nas/about.png"
+                alt="Эксперты по мармолеуму"
+                class="about__image"
+              />
+              <div class="about__content">
+                <h1 class="about__page-title screen-type__name">
+                  <span class="desktop">Эксперты</span
+                  ><span class="mobile">Гельстер - эксперт</span> по
+                  натуральному линолеуму
+                </h1>
+                <p class="about__page-text">
+                  Мы команда профессионалов в сфере напольных покрытий. Мы —
+                  Эксперты по натуральному линолеуму — занимаемся напольными
+                  покрытиями уже 14 лет. Изучаем их, укладываем, продаем,
+                  ухаживаем и восстанавливаем.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="definition">
+        <div class="o-nas app-container">
+          <div class="definition__container">
+            <div class="definition-content">
+              <h3 class="definition-content__title">
+                Мы любим свою работу, мы любим полы
+              </h3>
+              <p class="definition-content__text">
+                Полы — это неотъемлемая часть любого интерьера, одна из
+                важнейших его частей. Пол помогает нам крепко стоять на ногах.
+                Мы ходим по нему босиком, на полу играют наши дети, по нему
+                задорно носятся наши домашние животные.
+              </p>
+              <p class="definition-content__text">
+                Пол способен наполнить ваш интерьер теплом или строгостью,
+                оттенить цвет стен, сделать их ярче и насыщеннее, создать
+                иллюзию более широкого помещения, обратить внимание гостя на тот
+                или иной элемент интерьера. Пол может быть теплым и манящим, а
+                может быть холодным и скользким.
+              </p>
+            </div>
+            <img
+              src="./assets/images/o-nas/about_desktop.png"
+              alt="Мы любим свою работу мы любим полы"
+              class="o-nas definition__image-desktop"
+            />
+            <img
+              src="./assets/images/o-nas/about_mobile.jpg"
+              alt="Мы любим свою работу мы любим полы"
+              class="definition__image-mobile"
+            />
+          </div>
+        </div>
+      </section>
+        <section class="design-block">
+          <img
+            src="./assets/images/o-nas/design.jpg"
+            alt="Важность напольного покрытия"
+            class="design-block__image"
+          />
+          <div class="design-block__content">
+            <p class="design-block__text">
+              От того, каким будет ваше напольное покрытие, зависит ваше
+              настроение, ощущение себя дома или на работе.
+            </p>
+            <p class="design-block__text">
+              Мы посвятили свою жизнь напольным покрытиям, чтобы помочь вам
+              сделать эту важную часть интерьера еще и любимой.
+            </p>
+            <p class="design-block__text">
+              Напольные покрытия есть везде, они каждый день присутствуют в
+              вашей жизни, и важно, чтобы они были подобраны правильно.
+            </p>
+            <p class="design-block__text">
+              Чтобы в транспорте вы не скользили и не падали. Чтобы в
+              фитнес-клубе во время упражнений, не страдали ваши суставы. Чтобы
+              ваши дети, бегая по спортзалу на уроке физкультуры, не получали
+              травм и не выбивали колени.
+            </p>
+            <p class="design-block__text-bold">
+              Мы каждый день работаем над тем, чтобы отобрать среди множества
+              производителей и покрытий только лучшие и предложить их вам.
+            </p>
+            <img
+              src="./assets/images/o-nas/design-article.png"
+              alt=""
+              class="design-block__article design-block__left"
+            />
+          </div>
+      </section>
+      @@include('./components/_page-articles.html')
+    </main>
+    @@include('./components/_footer.html')
+
+    <script src="./script/header.min.js"></script>
+  </body>
+</html>

@@ -1,184 +1,16 @@
-.app-container {
-  width: 1500px;
-  @media (max-width: 1500px) {
-    width: 100%;
-    padding: 0 10px;
-  }
-  @media screen and (max-width: $tablet) {
-    padding: 0;
-  }
-}
-.about__layer {
-  background-color: white;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about__sections {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap;
-}
-
-.about__collection {
-  width: 75%;
-  padding: 80px 50px 80px 50px;
-  background-image: url(../../assets/images/marmoleum-eto/background_big.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  @media (max-width: 1050px) {
-    padding-right: 10px;
-    padding-left: 50px;
-  }
-  @media (max-width: $tablet) {
-    width: 100%;
-    order: 2;
-    padding: 30px 10px;
-  }
-  @media (max-width: $mobile) {
-    padding: 40px 24px;
-  }
-}
-
-.about__image {
-  max-height: 318px;
-  max-width: 318px;
-  @media screen and (max-width: $tablet) {
-    display: none;
-  }
-}
-
-.about__content {
-  margin-left: 50px;
-  @media screen and (max-width: $tablet) {
-    margin-left: 0;
-  }
-}
-
-.about__collection-title {
-  color: #f2d78f;
-  font-size: 30px;
-  line-height: 38px;
-  text-transform: uppercase;
-  font-weight: 400;
-  @media screen and (max-width: $mobile) {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-
-.about__collection-text {
-  color: white;
-  text-align: left;
-  font-size: 18px;
-  line-height: 26px;
-  margin-top: 30px;
-  @media (max-width: $tablet) {
-    margin-top: 15px;
-  }
-  @media screen and (max-width: $mobile) {
-    font-size: 16px;
-    line-height: 22px;
-  }
-}
-
-.definition {
-  background-color: white;
-  padding: 110px 0;
-  display: flex;
-  justify-content: center;
-  @media screen and (max-width: $tablet) {
-    padding: 0;
-  }
-}
-
-.definition__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  @media screen and (max-width: $tablet) {
-    flex-direction: column;
-  }
-}
-
-.definition-content {
-  text-align: right;
-  margin-right: 100px;
-  @media screen and (max-width: 1100px) {
-    margin-right: 50px;
-  }
-  @media screen and (max-width: $tablet) {
-    order: 2;
-    text-align: left;
-    padding: 20px 32px 40px 32px;
-    margin-right: 0;
-  }
-}
-
-.definition-content__title {
-  font-size: 38px;
-  line-height: 44px;
-  color: #c29e71;
-  font-weight: 300;
-  @media screen and (max-width: $mobile) {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-  }
-}
-
-.definition-content__text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #8b8477;
-  margin-top: 20px;
-  @media screen and (max-width: $mobile) {
-    margin-top: 15px;
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-
-.definition__image {
-  @media screen and (max-width: $tablet) {
-    order: 1;
-  }
-  &-desktop {
-    display: block;
-    @media screen and (max-width: $tablet) {
-      display: none;
-    }
-  }
-  &-mobile {
-    display: none;
-    @media screen and (max-width: $tablet) {
-      display: block;
-      width: 100%;
-    }
-  }
-}
-
 .section-header {
   background-image: url(../../assets/images/istoriya-marmoleuma/background_small.jpg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 60px;
   @media screen and (max-width: 1200px) {
     padding: 50px 30px;
   }
   @media (max-width: $tablet) {
     padding: 30px;
-    justify-content: flex-start;
   }
 }
 
@@ -188,85 +20,12 @@
   line-height: 44px;
   color: #f2d78f;
   text-transform: uppercase;
-  @media (max-width: $tablet) {
-    font-size: 18px;
-    line-height: 18px;
-  }
-}
-
-.text-list {
-  background-color: white;
-  padding: 60px 0;
   display: flex;
-  justify-content: center;
-}
-
-.text-list__item {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-  &:first-child {
-    margin-top: 0;
-  }
-  @media (max-width: $tablet) {
-    flex-direction: column;
-    padding: 0 32px;
-    margin-top: 50px;
-    &:first-child {
-      margin-top: 0;
-    }
-    img {
-      order: 1 !important;
-      width: 80%;
-    }
-  }
-  .left {
-    order: 2;
-  }
-  .right {
-    order: 3;
-    margin-left: 30px;
-    @media (max-width: $tablet) {
-      margin-left: 0;
-    }
-  }
-}
-
-.right-side {
   justify-content: flex-end;
   @media (max-width: $tablet) {
-    justify-content: inherit;
-  }
-}
-
-.item__content {
-  max-width: 650px;
-  @media (max-width: $tablet) {
-    margin-top: 10px;
-  }
-}
-
-.item__title {
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 44px;
-  color: #c29e71;
-  @media (max-width: $mobile) {
-    font-size: 22px;
-    line-height: 26px;
-  }
-}
-
-.item__text {
-  margin-top: 10px;
-  font-size: 20px;
-  line-height: 30px;
-  color: #8b8477;
-  text-align: justify;
-  @media (max-width: $mobile) {
-    font-size: 16px;
-    line-height: 26px;
-    text-align: left;
+    justify-content: flex-start;
+    font-size: 18px;
+    line-height: 18px;
   }
 }
 
@@ -324,6 +83,7 @@
 
 .block-text-image__image {
   width: 50%;
+  object-fit: cover;
   @media (max-width: 1100px) {
     width: 100%;
     order: 1;

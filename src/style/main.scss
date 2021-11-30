@@ -33,7 +33,14 @@ body {
     width: 100%;
     padding: 0 10px;
   }
+  @media screen and (max-width: $tablet) {
+    padding: 0;
+  }
 }
+
+
+// Общие стили
+@import './common.scss';
 
 // Стили для компонент
 @import "./components-style/header.scss";
@@ -57,4 +64,8 @@ body {
 
 .istoriya-marmoleuma {
   @import "./pages-styles/istoriya-marmoleuma.scss";
+}
+
+.o-nas {
+  @import './pages-styles/o-nas.scss';
 }
