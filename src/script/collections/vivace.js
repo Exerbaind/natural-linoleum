@@ -3,7 +3,7 @@
 @@include("../logic/createTable.js");
 @@include("../logic/createFullScreenArticles.js");
 @@include("../logic/createRecomendedCollection.js");
-@@include("./allCollections.js");
+@@include("../../api/allCollections.js");
 
 const articles = VivaceArticles();
 const table = VivaceTable();

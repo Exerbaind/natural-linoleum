@@ -1,0 +1,73 @@
+<?php header("Content-Type:text/html;charset=utf-8");?>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Мы команда профессионалов в сфере напольных покрытий. Мы —
+      Эксперты по натуральному линолеуму — занимаемся напольными
+      покрытиями уже 14 лет. Изучаем их, укладываем, продаем,
+      ухаживаем и восстанавливаем."
+    />
+    <meta
+      name="keywords"
+      content="гельстер эксперт по мармолеуму, о компании гельстер, тск гельстер"
+    />
+    <link rel="stylesheet" href="./style/main.min.css" />
+    <title>Гельстер - эксперт по мармолеуму</title>
+  </head>
+  <body>
+    @@include('./components/_header.html')
+    <main class="katalog">
+      <section class="about">
+        <div class="about__layer">
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__page">
+              <img
+                src="./assets/images/katalog/about.png"
+                alt="Forbo Marmoleum полная коллекция"
+                class="about__image"
+              />
+              <div class="about__content">
+                <h1 class="about__page-title">
+                  Forbo Marmoleum полная коллекция
+                </h1>
+                <p class="about__page-text">
+                  Marmoleum Forbo — это более двадцати коллекций и около трехсот
+                  неординарных артикулов. Среди них найдется цвет и дизайн на
+                  любой вкус. Однотонные строгие коллекции в индустриальном
+                  стиле, яркие артикулы насыщенных тонов, коллекции в полоску,
+                  имитирующие деревянную поверхность и поверхность горных пород,
+                  - вот лишь малая толика того огромного пространства вариантов,
+                  которое предоставляет натуральный линолеум Forbo Marmoleum.
+                </p>
+                <p class="about__page-text">
+                  Кроме того, к дизайну коллекций Мармолеума Форбо приложили
+                  руку именитые художники. Так, например, коллекции Forbo
+                  Marmoleum Meets Mendini созданы при участии итальянского
+                  архитектора Алессандро Мендини и вдохновлены его работами.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__side">
+          <img src="./assets/icons/crop.svg" alt="" />
+          <p>Мы продаем натуральный линолеум на отрез от 5 м²</p>
+        </div>
+      </section>
+      <section class="collections">
+        <h2 class="collections-title">Выберите подходящую коллекцию</h2>
+        <div class="collections-list"></div>
+      </section>
+    </main>
+    @@include('./components/_footer.html')
+
+    <script src="./script/header.min.js"></script>
+    <script src="./script/katalog.min.js"></script>
+  </body>
+</html>
