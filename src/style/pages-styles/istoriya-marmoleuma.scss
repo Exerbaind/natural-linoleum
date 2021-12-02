@@ -1,15 +1,16 @@
 .section-header {
-  background-image: url(../../assets/images/istoriya-marmoleuma/background_small.jpg);
+  background-image: url(../assets/images/istoriya-marmoleuma/background_small.jpg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 60px;
   @media screen and (max-width: 1200px) {
     padding: 50px 30px;
   }
   @media (max-width: $tablet) {
+    justify-content: flex-start;
     padding: 30px;
   }
 }

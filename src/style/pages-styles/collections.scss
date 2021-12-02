@@ -117,7 +117,7 @@
 }
 
 .about__side {
-  background-image: url(../../assets/images/collections/background_small.jpg);
+  background-image: url(../assets/images/collections/background_small.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,6 +126,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 30px;
+  width: 100%;
   @media (max-width: $mobile) {
     padding: 10px;
     justify-content: center;
@@ -170,7 +171,7 @@
 .about__collection {
   width: 75%;
   padding: 80px 50px 80px 100px;
-  background-image: url(../../assets/images/collections/about_bg.jpg);
+  background-image: url(../assets/images/collections/about_bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

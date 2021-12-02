@@ -139,15 +139,15 @@
   cursor: pointer;
   height: 50px;
   width: 50px;
-  background-image: url(../../assets/images/primenenie-marmoleuma/arrow.svg);
+  background-image: url(../assets/images/primenenie-marmoleuma/arrow.svg);
   background-size: cover;
   background-position: center;
   transition: .2s;
   &:hover{
-    background-image: url(../../assets/images/primenenie-marmoleuma/arrow-active.svg);
+    background-image: url(../assets/images/primenenie-marmoleuma/arrow-active.svg);
   }
   &:active {
-    background-image: url(../../assets/images/primenenie-marmoleuma/arrow-active.svg);
+    background-image: url(../assets/images/primenenie-marmoleuma/arrow-active.svg);
     transform: translateY(-50%) scale(0.97);
   }
         
@@ -166,15 +166,15 @@
     cursor: pointer;
     height: 50px;
     width: 50px;
-    background-image: url(../../assets/images/primenenie-marmoleuma/arrow.svg);
+    background-image: url(../assets/images/primenenie-marmoleuma/arrow.svg);
     background-size: cover;
     background-position: center;
     transition: .2s;
     &:hover{
-      background-image: url(../../assets/images/primenenie-marmoleuma/arrow-active.svg);
+      background-image: url(../assets/images/primenenie-marmoleuma/arrow-active.svg);
     }
     &:active {
-      background-image: url(../../assets/images/primenenie-marmoleuma/arrow-active.svg);
+      background-image: url(../assets/images/primenenie-marmoleuma/arrow-active.svg);
       transform: translateY(-50%) scale(0.97) rotate(180deg);
     }
           
@@ -232,7 +232,7 @@
   justify-content: center;
   align-items: center;
   padding: 30px 0 80px 0;
-  background-image: url(../../assets/images/primenenie-marmoleuma/background.jpg);
+  background-image: url(../assets/images/primenenie-marmoleuma/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

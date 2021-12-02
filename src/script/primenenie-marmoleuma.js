@@ -53,7 +53,7 @@ function switchBlock (p) {
     const blockImage = document.getElementById(p.place);
     const blockName = document.getElementById(`${p.place}-name`);
 
-    blockImage.setAttribute('src', `/assets/images/primenenie-marmoleuma/${p.place}/${p.image}.png`)
+    blockImage.setAttribute('src', `./assets/images/primenenie-marmoleuma/${p.place}/${p.image}.png`)
     blockImage.setAttribute('alt', `${p.alt}`)
 
     blockName.innerHTML = p.name[p.image];
