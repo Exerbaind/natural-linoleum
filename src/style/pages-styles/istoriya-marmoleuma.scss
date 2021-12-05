@@ -12,11 +12,13 @@
   @media (max-width: $tablet) {
     justify-content: flex-start;
     padding: 30px;
+    background-position: left;
+    background-image: url(../assets/images/istoriya-marmoleuma/background_small-mobile.jpg);
   }
 }
 
 .section-header__title {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 38px;
   line-height: 44px;
   color: #f2d78f;
@@ -26,7 +28,7 @@
   @media (max-width: $tablet) {
     justify-content: flex-start;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 24px;
   }
 }
 
@@ -63,7 +65,7 @@
   font-size: 38px;
   line-height: 44px;
   color: #f0cca0;
-  font-weight: 300;
+  font-weight: 400;
   @media (max-width: $mobile) {
     font-size: 22px;
     line-height: 26px;
@@ -93,13 +95,10 @@
 
 .block-text-image__with-text {
   width: 50%;
-  background-color: #53514C;
+  background-color: rgba($color: #040404, $alpha: 0.9);
   @media (max-width: 1100px) {
     width: 100%;
     order: 1;
-  }
-  @media screen and (max-width: $tablet) {
-    background-color: rgba($color: #040404, $alpha: 0.9);
   }
   .block-text-image__image {
     width: 100%;

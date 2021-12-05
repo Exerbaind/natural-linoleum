@@ -100,7 +100,8 @@
   text-align: center;
   margin: 30px 30px 30px 0;
   align-self: end;
-  padding: 10px 30px;
+  padding: 10px 50px;
+  font-weight: 500;
   @media (max-width: 600px) {
     align-self: center;
     margin: 20px 0 30px 0;
@@ -150,7 +151,7 @@
     font-size: 32px;
     line-height: 37px;
     color: #F2D78F;
-    font-weight: 300;
+    font-weight: 400;
     @media (max-width: $tablet) {
       font-size: 20px;
       line-height: 26px;
@@ -284,7 +285,7 @@
 
 .records__container {
   background: rgba(108, 123, 101, 0.75);
-  padding: 50px;
+  padding: 50px 120px;
   @media (max-width: 700px) {
     padding: 20px 10px;
   }
@@ -297,7 +298,7 @@
 
 .table__title {
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 36px;
   line-height: 44px;
@@ -346,7 +347,7 @@
 .documents__container {
   display: flex;
   justify-content: flex-start;
-  padding: 40px 50px;
+  padding: 40px 120px;
   align-items: center;
   @media (max-width: 700px) {
     padding: 20px 10px;
@@ -354,8 +355,8 @@
 }
 
 .documents__title {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 38px;
+  font-weight: 400;
   color: #524d4d;
   width: 50%;
   @media (max-width: 700px) {
@@ -403,7 +404,7 @@
 .document__name {
   margin-left: 15px;
   color: #e7bd53;
-  font-size: 20px;
+  font-size: 38px;
   font-weight: 400;
   @media (max-width: 700px) {
     font-size: 18px;

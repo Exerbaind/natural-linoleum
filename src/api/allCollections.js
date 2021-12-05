@@ -2,7 +2,7 @@ function AllCollectionsList() {
   return [
     {
       name: "Real",
-      title: "Натуральный линолеум Marmoleum Real",
+      title: "Натуральный линолеум</br>Marmoleum Real",
       property: "дизайна под мрамор",
       count: 33,
       img: "./assets/images/collections/recomended_collections/real.png",
@@ -18,7 +18,7 @@ function AllCollectionsList() {
     // },
     {
       name: "Walton cirrus",
-      title: "Натуральный линолеум Marmoleum Cirrus",
+      title: "Натуральный линолеум</br>Marmoleum Cirrus",
       property: "однотонных дизайнов",
       count: 11,
       img:
@@ -28,7 +28,7 @@ function AllCollectionsList() {
     },
     {
       name: "Cocoa",
-      title: "Натуральный линолеум Marmoleum Cocoa",
+      title: "Натуральный линолеум</br>Marmoleum Cocoa",
       property: "дизайнов со скорлупкой какао",
       count: 5,
       img: "./assets/images/collections/recomended_collections/cocoa.png",
@@ -37,7 +37,7 @@ function AllCollectionsList() {
     },
     {
       name: "Slate",
-      title: "Натуральный линолеум Marmoleum Slate",
+      title: "Натуральный линолеум</br>Marmoleum Slate",
       property: "дизайнов под камень",
       count: 5,
       img: "./assets/images/collections/recomended_collections/slate.png",
@@ -46,7 +46,7 @@ function AllCollectionsList() {
     },
     {
       name: "Vivace",
-      title: "Натуральный линолеум Marmoleum Vivace",
+      title: "Натуральный линолеум</br>Marmoleum Vivace",
       property: "ярких дизайнов",
       count: 9,
       img: "./assets/images/collections/recomended_collections/vivace.png",
@@ -55,7 +55,7 @@ function AllCollectionsList() {
     },
     {
       name: "Splash",
-      title: "Натуральный линолеум Marmoleum Splash",
+      title: "Натуральный линолеум</br>Marmoleum Splash",
       property: "дизайнов с яркими акцентами",
       count: 6,
       img: "./assets/images/collections/recomended_collections/splash.png",
@@ -64,7 +64,7 @@ function AllCollectionsList() {
     },
     {
       name: "Fresco",
-      title: "Натуральный линолеум Marmoleum Fresco",
+      title: "Натуральный линолеум</br>Marmoleum Fresco",
       property: "дизайнов под мрамор",
       count: 38,
       img: "./assets/images/collections/recomended_collections/fresco.png",
@@ -73,7 +73,7 @@ function AllCollectionsList() {
     },
     {
       name: "Terra",
-      title: "Натуральный линолеум Marmoleum Terra",
+      title: "Натуральный линолеум</br>Marmoleum Terra",
       property: "нейтральных дизайна",
       count: 4,
       img: "./assets/images/collections/recomended_collections/terra.png",
@@ -82,7 +82,7 @@ function AllCollectionsList() {
     },
     {
       name: "Concrete",
-      title: "Натуральный линолеум Marmoleum Concrete",
+      title: "Натуральный линолеум</br>Marmoleum Concrete",
       property: "дизайна под бетон",
       count: 33,
       img: "./assets/images/collections/recomended_collections/concrete.png",
@@ -91,7 +91,7 @@ function AllCollectionsList() {
     },
     {
       name: "Ohmex",
-      title: "Натуральный линолеум Marmoleum Ohmex",
+      title: "Натуральный линолеум</br>Marmoleum Ohmex",
       property: "дизайнов токорассеивающего покрытия",
       count: 6,
       img: "./assets/images/collections/recomended_collections/ohmex.png",
@@ -100,7 +100,7 @@ function AllCollectionsList() {
     },
     {
       name: "Sport",
-      title: "Натуральный линолеум Marmoleum Sport",
+      title: "Натуральный линолеум</br>Marmoleum Sport",
       property: "дизайнов спортивного покрытия",
       count: 13,
       img: "./assets/images/collections/recomended_collections/sport.png",
@@ -109,7 +109,7 @@ function AllCollectionsList() {
     },
     {
       name: "Piano",
-      title: "Натуральный линолеум Marmoleum Piano",
+      title: "Натуральный линолеум</br>Marmoleum Piano",
       property: "насыщенных дизайнов",
       count: 19,
       img: "./assets/images/collections/recomended_collections/piano.png",
@@ -118,7 +118,7 @@ function AllCollectionsList() {
     },
     {
       name: "Striato",
-      title: "Натуральный линолеум Marmoleum Striato",
+      title: "Натуральный линолеум</br>Marmoleum Striato",
       property: "дизайнов в полоску",
       count: 20,
       img: "./assets/images/collections/recomended_collections/concrete.png",
@@ -127,7 +127,7 @@ function AllCollectionsList() {
     },
     {
       name: "Walton Uni",
-      title: "Натуральный линолеум Marmoleum Walton Uni",
+      title: "Натуральный линолеум</br>Marmoleum Walton Uni",
       property: "однотонных дизайна",
       count: 4,
       img: "./assets/images/collections/recomended_collections/walton_uni.png",
@@ -136,7 +136,7 @@ function AllCollectionsList() {
     },
     {
       name: "Acoustic",
-      title: "Натуральный линолеум Marmoleum Acoustic",
+      title: "Натуральный линолеум</br>Marmoleum Acoustic",
       property: "дизайнов с акустиков до 14 дБ",
       count: 6,
       img: "./assets/images/collections/recomended_collections/acoustic.png",
@@ -145,7 +145,7 @@ function AllCollectionsList() {
     },
     {
       name: "Decibel",
-      title: "Натуральный линолеум Marmoleum Decibel",
+      title: "Натуральный линолеум</br>Marmoleum Decibel",
       property: "дизайнов с акустиков до 18 дБ",
       count: 26,
       img: "./assets/images/collections/recomended_collections/decibel.png",
@@ -182,7 +182,7 @@ function AllCollectionsList() {
     },
     {
       name: "Furniture Linoleum",
-      title: "Покрытие для мебели Furniture Linoleum",
+      title: "Покрытие для мебели</br>Furniture Linoleum",
       property: "скандинавский дизайн",
       count: 21,
       img: "./assets/images/collections/recomended_collections/desktop.png",
