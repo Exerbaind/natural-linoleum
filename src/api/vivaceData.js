@@ -62,26 +62,32 @@ function VivaceTable() {
     {
       name: "Ширина рулона (м.пог.), EN-ISO 24341",
       value: "2,0",
+      key: 'width',
     },
     {
       name: "Длина рулона (м.пог.), EN-ISO 24341",
       value: "32,0",
+      key: 'length',
     },
     {
       name: "Толщина покрытия общая (мм.), EN-ISO 24346",
       value: "2,5",
+      key: 'common-thikness',
     },
     {
       name: "Толщина рабочего слоя (мм.)",
       value: "2,5",
+      key: 'work-thikness',
     },
     {
       name: "Вес покрытия (кг./кв.м.), EN-ISO 23997",
       value: "3,0",
+      key: 'common-weight',
     },
     {
       name: "Дополнительное защитное покрытие",
       value: "Topshield2",
+      key: 'extra-armor',
     },
     {
       name: "Звукопоглощение (дБ), EN-ISO 717-2",
@@ -90,6 +96,7 @@ function VivaceTable() {
     {
       name: "Класс применения, EN-ISO 10874",
       value: "34/43",
+      key: 'class',
     },
     {
       name: "Уровень противоскольжения, DIN 51130",
@@ -128,6 +135,7 @@ function VivaceTable() {
     {
       name: "Класс пожарной опасности, EN 13501-1",
       value: "КМ2",
+      key: 'km',
     },
   ];
 }

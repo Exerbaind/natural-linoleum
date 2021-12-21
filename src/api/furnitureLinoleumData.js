@@ -134,22 +134,27 @@ function FurnitureLinoleumArticles() {
       {
         name: "Ширина рулона (м.пог.), EN-ISO 24341",
         value: "1,83",
+        key: 'width',
       },
       {
         name: "Длина рулона (м.пог.), EN-ISO 24341",
         value: "30,0",
+        key: 'length',
       },
       {
         name: "Толщина покрытия общая (мм.), EN-ISO 24346",
         value: "2,0",
+        key: 'common-thikness',
       },
       {
         name: "Толщина рабочего слоя (мм.)",
         value: "2,0",
+        key: 'work-thikness',
       },
       {
         name: "Вес покрытия (кг./кв.м.), EN-ISO 23997",
         value: "2,1",
+        key: 'common-weight',
       },
       {
         name: "Устойчивость к воздействию влаги",

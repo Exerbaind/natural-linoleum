@@ -63,10 +63,10 @@
 
 .intro__title {
   color: #f2d78f;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 38px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   @media (max-width: 600px) {
     font-size: 26px;
     line-height: 34px;
@@ -189,7 +189,7 @@
 
 .about__collection-title {
   color: #f2d78f;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 38px;
   text-transform: uppercase;
   font-weight: 400;
@@ -198,9 +198,10 @@
 .about__collection-text {
   color: white;
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 26px;
   margin-top: 30px;
+  font-weight: 300;
   @media (max-width: 870px) {
     margin-top: 15px;
   }
@@ -214,7 +215,7 @@
 }
 
 .articles__title {
-  font-size: 32px;
+  font-size: 38px;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 400;
@@ -303,6 +304,7 @@
   font-size: 36px;
   line-height: 44px;
   color: #fff9f1;
+  margin-bottom: 15px;
   @media (max-width: 700px) {
     font-size: 28px;
     line-height: 36px;
@@ -334,6 +336,17 @@
   &:last-child {
     color: #fef1cf;
     padding-left: 10px;
+  }
+  &.tooltip {
+    span {
+      cursor: pointer;
+      border-bottom: 1px solid #fef1cf;
+      transition: .3s;
+      &:hover {
+        color: #f1cc9d;
+        border-bottom: 1px solid #f1cc9d;
+      }
+    }
   }
 }
 
@@ -429,7 +442,7 @@
 }
 
 .other-collections__title {
-  font-size: 32px;
+  font-size: 38px;
   line-height: 40px;
   text-transform: uppercase;
   color: #ffe7ca;

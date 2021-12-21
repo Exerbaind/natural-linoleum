@@ -164,11 +164,13 @@
           src="./assets/icons/fullScreenArticlesHandler.svg"
           alt=""
           class="fullScreen-articles__handler nextArticle"
+          style="visibility: hidden;"
         />
         <img
           src="./assets/icons/fullScreenArticlesHandler.svg"
           alt=""
           class="fullScreen-articles__handler prevArticle"
+          style="visibility: hidden;"
         />
         <button class="fullScreen-articles__close">
           <img
@@ -180,10 +182,12 @@
       </section>
     </main>
     @@include('./components/_footer.html')
+    @@include('./components/_table-description.html')
     @@include('./components/_form-order.html')
 
     <script src="./script/header.min.js"></script>
     <script src="./script/collections/corkment.min.js"></script>
     <script src="./script/formHandler.min.js"></script>
+    <script src="./script/table-description.min.js"></script>
   </body>
 </html>

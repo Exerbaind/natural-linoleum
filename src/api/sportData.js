@@ -86,22 +86,27 @@ function SportArticles() {
       {
         name: "Ширина рулона (м.пог.), EN-ISO 24341",
         value: "2,0",
+        key: 'width',
       },
       {
         name: "Длина рулона (м.пог.), EN-ISO 24341",
         value: "28,0",
+        key: 'length',
       },
       {
         name: "Толщина покрытия общая (мм.), EN-ISO 24346",
         value: "3,2; 4,0",
+        key: 'common-thikness',
       },
       {
         name: "Толщина рабочего слоя (мм.)",
         value: "3,2; 4,0",
+        key: 'work-thikness',
       },
       {
         name: "Вес покрытия (кг./кв.м.), EN-ISO 23997",
         value: "3,9; 5,2",
+        key: 'common-weight',
       },
       {
         name: "Отскок мяча (%), EN-ISO 14904",
@@ -114,6 +119,7 @@ function SportArticles() {
       {
         name: "Класс применения, EN-ISO 10874",
         value: "34/43",
+        key: 'class',
       },
       {
         name: "Уровень противоскольжения, DIN 51130",
@@ -152,6 +158,7 @@ function SportArticles() {
       {
         name: "Класс пожарной опасности, EN 13501-1",
         value: "КМ2",
+        key: 'km',
       },
     ];
   }

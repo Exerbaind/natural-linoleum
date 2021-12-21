@@ -14,14 +14,17 @@ function CorkmentArticles() {
       {
         name: "Ширина рулона (м)",
         value: "2,0",
+        key: 'width',
       },
       {
         name: "Длина рулона (м)",
         value: "32,0",
+        key: 'length',
       },
       {
         name: "Толщина покрытия общая (мм.)",
         value: "2,0; 3,2",
+        key: 'common-thikness',
       },
       {
         name: "Звукопоглощение (дБ), EN-ISO 717-2",

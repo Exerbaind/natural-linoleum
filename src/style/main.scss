@@ -48,6 +48,7 @@ body {
 @import "./components-style/about-marmoleum-links.scss";
 @import "./components-style/page-articles.scss";
 @import "./components-style/form-order.scss";
+@import "./components-style/table-description.scss";
 
 // Стили для страниц
 .index {
@@ -72,4 +73,8 @@ body {
 
 .katalog {
   @import './pages-styles/katalog.scss';
+}
+
+.sertifikati-marmoleuma {
+  @import './pages-styles/sertifikati-marmoleuma.scss';
 }
