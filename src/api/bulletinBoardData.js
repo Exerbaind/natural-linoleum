@@ -98,22 +98,27 @@ function BulletinBoardArticles() {
       {
         name: "Ширина рулона (м.пог.), EN-ISO 24341",
         value: "1,22; 1,83",
+        key: 'width',
       },
       {
         name: "Длина рулона (м.пог.), EN-ISO 24341",
         value: "28,0",
+        key: 'length',
       },
       {
         name: "Толщина покрытия общая (мм.), EN-ISO 24346",
         value: "6,0",
+        key: 'common-thikness',
       },
       {
         name: "Толщина рабочего слоя (мм.)",
         value: "6,0",
+        key: 'work-thikness',
       },
       {
         name: "Вес покрытия (кг./кв.м.), EN-ISO 23997",
         value: "4,4",
+        key: 'common-weight',
       },
       {
         name: "Устойчивость к воздействию влаги",
