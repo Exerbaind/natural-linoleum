@@ -137,7 +137,7 @@ function AllCollectionsList() {
     {
       name: "Acoustic",
       title: "Натуральный линолеум</br>Marmoleum Acoustic",
-      property: "дизайнов с акустиков до 14 дБ",
+      property: "дизайнов с акустикой до 14 дБ",
       count: 6,
       img: "./assets/images/collections/recomended_collections/acoustic.png",
       katalog_img: './assets/images/katalog/acoustic.png',
@@ -146,7 +146,7 @@ function AllCollectionsList() {
     {
       name: "Decibel",
       title: "Натуральный линолеум</br>Marmoleum Decibel",
-      property: "дизайнов с акустиков до 18 дБ",
+      property: "дизайнов с акустикой до 18 дБ",
       count: 26,
       img: "./assets/images/collections/recomended_collections/decibel.png",
       katalog_img: './assets/images/katalog/decibel.png',

@@ -52,7 +52,7 @@ let { src, dest } = require("gulp"),
   ttf2woff2 = require("gulp-ttf2woff2"),
   fonter = require("gulp-fonter");
 
-function browserSync(params) {
+function browserSync() {
   browsersync.init({
     server: {
       baseDir: `./${project_folder}/`,
