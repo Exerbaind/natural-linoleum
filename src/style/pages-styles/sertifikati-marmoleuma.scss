@@ -69,14 +69,29 @@
 
 .collections-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .collections-item {
   width: 30%;
   margin-top: 50px;
+  margin: 50px 20px 0 20px;
   position: relative;
+  &:nth-child(3n+3) {
+    .collection-item__name {
+      .collection-item__icon {
+        .collection-item__icon-text {
+            left: -465px;
+            &::after {
+              left: 100%;
+              border: 10px solid transparent; 
+              border-left: 15px solid white;
+          }
+        }
+      }
+    }
+  }
 
   @media screen and (max-width: 1000px) {
     width: 48%;
@@ -156,11 +171,18 @@
   text-align: center;
   justify-content: center;
   .collection-item__icon {
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    margin-left: 200px;
+    position: relative;
+    // height: 28px;
+    // width: 28px;
+    margin-left: 10px;
     cursor: pointer;
+    &:hover {
+      .collection-item__icon-text {
+        z-index: 1;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
     img {
       height: 28px;
       width: 28px;
@@ -172,12 +194,30 @@
       }
     }
     .collection-item__icon-text {
-      padding: 30px;
+      padding: 25px;
       background-color: white;
       position: absolute;
-      bottom: -20px;
+      bottom: -7px;
       left: 50px;
       border-radius: 20px;
+      font-size: 14px;
+      line-height: 20px;
+      width: 445px;
+      text-align: left;
+      color: #3E413B;
+      z-index: 0;
+      visibility: hidden;
+      opacity: 0;
+      transition: .3s;
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border: 10px solid transparent; 
+        border-right: 15px solid white;
+        left: -24px;
+        bottom: 25px;
+      }
     }
   }
 }
@@ -185,42 +225,6 @@
 .mt-20 {
   margin-top: 20px;
 }
-
-// .collection-item__name {
-//   margin-top: 20px;
-//   position: relative;
-//   p {
-//     font-size: 30px;
-//     line-height: 40px;
-//     color: #f2d78f;
-//     font-weight: 300;
-//     text-align: center;
-//   }
-//   .collection-item__icon {
-//     width: 28px;
-//     height: 28px;
-//     background-image: url(../../assets/images/sertifikati-marmoleuma/extra.svg);
-//     background-position: center;
-//     background-size: cover;
-//     margin-left: 12px;
-//     position: absolute;
-//     cursor: pointer;
-//     transition: 0.3s;
-//     &:hover {
-//       filter: drop-shadow(0px 0px 15px rgba(242, 215, 143, 0.6));
-//     }
-//   }
-
-//   @media screen and (max-width: $tablet) {
-//     font-size: 16px;
-//     line-height: 20px;
-//     margin-top: 10px;
-//   }
-//   @media screen and (max-width: $mobile) {
-//     font-size: 14px;
-//     line-height: 18px;
-//   }
-// }
 
 .collection-item__seporator {
   margin: 15px auto;
@@ -248,4 +252,113 @@
     font-size: 12px;
     line-height: 16px;
   }
+}
+
+.fullScreen-sertificates {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba($color: #000000, $alpha: 0.6);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  &--active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 20;
+  }
+}
+
+.fullScreen-sertificates__container {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: 100vh;
+  transition: 0.3s;
+  transform: translateX(0%);
+}
+
+.fullScreen-sertificates__item {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  // margin-top: 30px;
+}
+
+.fullScreen-sertificates__image {
+  max-width: 600px;
+  border-radius: 10px;
+  @media (max-width: 700px) {
+    max-width: 250px;
+  }
+  @media (max-width: 370px) {
+    max-width: 200px;
+  }
+}
+
+.fullScreen-sertificates__handler {
+  position: fixed;
+  transform: translateY(-50%);
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  transition: 0.3s;
+  @media (max-width: 700px) {
+    height: 50px;
+    width: 50px;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.nextSertificate {
+  right: 10px;
+  top: 50%;
+  &:active {
+    transform: scale(0.95) translateY(-50%);
+  }
+}
+
+.prevSertificate {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  &:active {
+    transform: translateY(-50%) rotate(180deg) scale(0.95);
+  }
+}
+
+.fullScreen-sertificates__close {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #d8a667;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.fullScreen-sertificates__close-icon {
+  width: 100%;
+  height: 100%;
 }
