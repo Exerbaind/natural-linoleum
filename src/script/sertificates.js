@@ -12,6 +12,8 @@ let maxMove;
 fullScreenClose.onclick = function () {
     fullScreen.classList.remove("fullScreen-sertificates--active");
     document.body.style.overflow = "auto";
+    fullScreenList.style.transform = `translateX(0%)`;
+    move = 0;
 };
 
 function openFullScreen() {
