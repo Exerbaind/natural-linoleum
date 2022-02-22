@@ -60,6 +60,12 @@
   }
 }
 
+.no-hiding {
+  @media screen and (max-width: $mobile) {
+    display: block;
+  }
+}
+
 .place__text-mobile {
   display: none;
   @media screen and (max-width: $mobile) {
@@ -120,6 +126,11 @@
     height: 100%;
     padding: 25px;
   }
+}
+
+.no-border {
+  border: none;
+  filter: none;
 }
 
 .place-image__image {
