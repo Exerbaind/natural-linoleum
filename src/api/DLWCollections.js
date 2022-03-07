@@ -19,7 +19,7 @@ function DLWCollectionsList() {
         link: "dlw_colorette.htm",
       },
       {
-        name: "Marmoleum Uni Walton",
+        name: "DLW Uni Walton",
         title: "Marmoleum</br>Uni Walto",
         property: "",
         count: '',
@@ -28,7 +28,7 @@ function DLWCollectionsList() {
         link: "dlw_uni-walton.htm",
       },
       {
-        name: "Marmoleum Arabesque",
+        name: "DLW Arabesque",
         title: "Marmoleum</br>Arabesque",
         property: "",
         count: '',

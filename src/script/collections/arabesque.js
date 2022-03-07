@@ -8,7 +8,7 @@
 const articles = ArabesqueArticles();
 const table = ArabesqueTable();
 const recomendedCollections = DLWCollectionsList();
-const currentCollectionName = "Marmoleum Arabesque";
+const currentCollectionName = "DLW Arabesque";
 
 const articlesList = document.querySelector(".articles__list");
 const recordsTable = document.querySelector(".table__body");

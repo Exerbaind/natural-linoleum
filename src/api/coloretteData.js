@@ -122,27 +122,27 @@ function ColoretteArticles() {
       {
         name: "Ширина рулона (м.пог.), EN-ISO 24341",
         value: "2,0",
-        key: 'width',
+        key: 'width_dlw',
       },
       {
         name: "Длина рулона (м.пог.), EN-ISO 24341",
         value: "20,0 - 31,0",
-        key: 'length',
+        key: 'length_dlw',
       },
       {
         name: "Толщина покрытия общая (мм.), EN-ISO 24346",
         value: "2,5",
-        key: 'common-thikness',
+        key: 'common-thikness_dlw',
       },
       {
         name: "Вес покрытия (кг./кв.м.), EN-ISO 23997",
         value: "2,9",
-        key: 'common-weight',
+        key: 'common-weight_dlw',
       },
       {
         name: "Дополнительное защитное покрытие",
         value: "Neocare",
-        key: 'extra-armor',
+        key: 'extra-armor_neocare',
       },
       {
         name: "Звукопоглощение (дБ), EN-ISO 717-2",
@@ -151,7 +151,7 @@ function ColoretteArticles() {
       {
         name: "Класс применения, EN-ISO 10874",
         value: "23 / 34 / 43",
-        key: 'class',
+        key: 'class_dlw',
       },
       {
         name: "Уровень противоскольжения, DIN 51130",

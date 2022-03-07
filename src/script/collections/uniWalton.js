@@ -8,7 +8,7 @@
 const articles = UniWaltonArticles();
 const table = UniWaltonTable();
 const recomendedCollections = DLWCollectionsList();
-const currentCollectionName = "Marmoleum Uni Walton";
+const currentCollectionName = "DLW Uni Walton";
 
 const articlesList = document.querySelector(".articles__list");
 const recordsTable = document.querySelector(".table__body");
