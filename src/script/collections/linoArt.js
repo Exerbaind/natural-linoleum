@@ -8,7 +8,7 @@
 const articles = LinoArtArticles();
 const table = LinoArtTable();
 const recomendedCollections = DLWCollectionsList();
-const currentCollectionName = "DLW LinoArt";
+const currentCollectionName = "DLW Lino Art";
 
 const articlesList = document.querySelector(".articles__list");
 const recordsTable = document.querySelector(".table__body");

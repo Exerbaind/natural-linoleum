@@ -39,7 +39,7 @@ function initImages(item, index) {
             fullScreenItem.style.transform = `translateX(${imageIndex}00%)`;
         }
         
-        fullScreenImage.setAttribute("src", `../assets/images/sertifikati-marmoleuma/${index}-${imageIndex}.jpg`);
+        fullScreenImage.setAttribute("src", `./assets/images/sertifikati-marmoleuma/${index}-${imageIndex}.jpg`);
         fullScreenImage.setAttribute(
           "alt",
           `Сертификат`
