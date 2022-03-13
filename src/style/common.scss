@@ -36,6 +36,10 @@
   }
 }
 
+.about-page__full-width {
+  width: 100%;
+}
+
 .about__image {
   max-height: 318px;
   max-width: 318px;
@@ -48,6 +52,13 @@
   margin-left: 50px;
   @media screen and (max-width: $tablet) {
     margin-left: 0;
+  }
+}
+
+.about__content--image-right {
+  margin-right: 100px;
+  @media screen and (max-width: $tablet) {
+    margin-right: 0;
   }
 }
 
