@@ -31,7 +31,7 @@
     color: #f2d78f;
     font-weight: 400;
     @media (max-width: $tablet) {
-      font-size: 20px;
+      font-size: 18px;
       line-height: 26px;
     }
     @media (max-width: $mobile) {
@@ -62,7 +62,7 @@
   text-align: center;
   text-transform: uppercase;
   @media screen and (max-width: $tablet) {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
@@ -258,7 +258,7 @@
 }
 
 .collection-item__property {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   color: white;
   text-align: center;

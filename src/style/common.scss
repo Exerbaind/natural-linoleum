@@ -41,8 +41,8 @@
 }
 
 .about__image {
-  max-height: 318px;
-  max-width: 318px;
+  height: 370px;
+  width: 370px;
   @media screen and (max-width: $tablet) {
     display: none;
   }
@@ -81,6 +81,13 @@
   line-height: 26px;
   margin-top: 30px;
   font-weight: 300;
+  width: 65%;
+  @media (max-width: 2000px) {
+    width: 75%;
+  }
+  @media (max-width: 1500px) {
+    width: 100%;
+  }
   @media (max-width: $tablet) {
     margin-top: 15px;
   }
@@ -126,8 +133,8 @@
 }
 
 .definition-content__title {
-  font-size: 38px;
-  line-height: 44px;
+  font-size: 32px;
+  line-height: 38px;
   color: #c29e71;
   font-weight: 300;
   @media screen and (max-width: $mobile) {
@@ -139,8 +146,8 @@
 
 .definition-content__text {
   font-weight: 300;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   color: #8b8477;
   margin-top: 20px;
   @media screen and (max-width: $mobile) {
@@ -201,20 +208,20 @@
 }
 
 .design-block__title {
-    font-size: 38px;
-    line-height: 44px;
-    color: #f0cca0;
-    font-weight: 300;
-    @media (max-width: $mobile) {
-      font-size: 22px;
-      line-height: 26px;
-    }
+  font-size: 38px;
+  line-height: 44px;
+  color: #f0cca0;
+  font-weight: 300;
+  @media (max-width: $mobile) {
+    font-size: 22px;
+    line-height: 26px;
   }
+}
 
 .design-block__text {
   margin-top: 10px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   color: white;
   font-weight: 300;
   @media (max-width: $mobile) {
@@ -226,8 +233,8 @@
 
 .design-block__text-bold {
   margin-top: 40px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   color: white;
   font-weight: 700;
   @media (max-width: $mobile) {
@@ -341,8 +348,8 @@
 
 .item__text {
   margin-top: 10px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   color: #8b8477;
   text-align: left;
   font-weight: 300;
@@ -354,14 +361,14 @@
 }
 
 .margin-top30 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .margin-top-50 {
-    margin-top: -50px;
-    @media (max-width: $tablet) {
-        margin-top: 50px;
-    }
+  margin-top: -50px;
+  @media (max-width: $tablet) {
+    margin-top: 50px;
+  }
 }
 
 // ----------------------------

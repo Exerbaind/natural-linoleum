@@ -38,9 +38,8 @@ body {
   }
 }
 
-
 // Общие стили
-@import './common.scss';
+@import "./common.scss";
 
 // Стили для компонент
 @import "./components-style/header.scss";
@@ -68,17 +67,21 @@ body {
 }
 
 .primenenie-marmoleuma {
-  @import './pages-styles/primenenie-marmoleuma.scss';
+  @import "./pages-styles/primenenie-marmoleuma.scss";
 }
 
 .katalog {
-  @import './pages-styles/katalog.scss';
+  @import "./pages-styles/katalog.scss";
 }
 
 .sertifikati-marmoleuma {
-  @import './pages-styles/sertifikati-marmoleuma.scss';
+  @import "./pages-styles/sertifikati-marmoleuma.scss";
 }
 
 .photo-gallery {
-  @import './pages-styles/photo-gallery.scss';
+  @import "./pages-styles/photo-gallery.scss";
+}
+
+.photo-object {
+  @import "./pages-styles/photo-object.scss";
 }

@@ -1,5 +1,5 @@
 .app-container {
-  width: 1500px;
+  width: 1100px;
   @media (max-width: 1500px) {
     width: 100%;
     padding: 0 10px;
@@ -98,7 +98,7 @@
   font-size: 24px;
   font-weight: 300;
   @media (max-width: 700px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -362,7 +362,7 @@
 }
 
 .information__content-title {
-  font-size: 28px;
+  font-size: 32px;
   color: #d8a667;
   text-transform: uppercase;
   font-weight: 400;
@@ -373,7 +373,7 @@
 
 .information__content-text {
   margin-top: 35px;
-  font-size: 20px;
+  font-size: 18px;
   color: #5a554e;
   font-weight: 300;
   text-align: justify;
@@ -495,7 +495,7 @@
 
 .description__text {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   text-align: justify;
   margin-top: 25px;

@@ -3,7 +3,7 @@ function PhotoGalleryData() {
     {
       name: "Клиника «Эксимер»",
       type: "object",
-      link: "./real-foto-v-interiere-eksimer.htm",
+      link: "./photo-eksimer.html",
       image: "./assets/images/photo-gallery/eksimer.png",
       subtitle: "Нажмите, чтобы посмотрть полностью",
     },
