@@ -1,0 +1,144 @@
+<?php header("Content-Type:text/html;charset=utf-8");?>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <meta
+      name="description"
+      content="В этом разделе представлены фотографии настила натурального
+      линолеума в детском центре в Петербурге."
+    />
+    <meta
+      name="keywords"
+      content="натуральный линолеум фото в интерьере детского сада дюшес"
+    />
+    <link rel="stylesheet" href="./style/main.min.css" />
+    <title>Натуральный линолеум фото в интерьере детского сада «Дюшес»</title>
+  </head>
+  <body>
+    @@include('./components/_header.html')
+    <main class="photo-object">
+      <section class="about">
+        <div class="about__layer">
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__page">
+              <img
+                src="./assets/images/photo-gallery/dushes/main.png"
+                alt="Натуральный линолеум фото в интерьере детского сада Дюшес"
+                class="about__image"
+              />
+              <div class="about__content">
+                <h1 class="about__page-title">
+                  Натуральный линолеум фото в интерьере детского сада «Дюшес»
+                </h1>
+                <p class="about__page-text">
+                  В этом разделе представлены фотографии настила натурального
+                  линолеума в детском центре в Петербурге. Заказчик остановил
+                  свой выбор на этом покрытии, так как антибактериальные
+                  свойства напольного покрытия делают его безопасным для
+                  малышей, которые играют на полу, а высокая устойчивость к
+                  износу гарантирует верную службу на протяжении долгих лет.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="usage">
+        <div class="app-container">
+          <div class="usage__container">
+            <div class="usage-content">
+              <h2 class="usage-content__title">
+                Натуральный линолеум в детском саду
+              </h2>
+              <p class="usage-content__text">
+                Наша компания предоставила свои услуги по поставке, настилу и
+                нанесению мастикина поверхность натурального линолеума для
+                одного из детских центров.
+              </p>
+              <p class="usage-content__text">
+                Именно поэтому мы использовали натуральный линолеум Forbo
+                Marmoleum Uni для одного из детских центров в Петербурге. Наш
+                клиент выбрал однотонный серый артикул 173/17335. На фото видно,
+                что натуральный линолеум был уложен в классе развивающих
+                занятий, частично совмещенном с игровой зоной.
+              </p>
+              <p class="usage-content__text">
+                Так как мармолеум не боится загрязнений и прост в уборке, малыши
+                могут полностью отдаться творчеству и экспериментам на уроках
+                рисования или лепки.Как видно на фотографиях в этом детском
+                центре, натуральный линолеум устойчив к царапинам от ножек
+                мебели, поэтому класс может легко изменить свое функциональное
+                назначение.
+              </p>
+            </div>
+            <img
+              src="./assets/images/photo-gallery/dushes/about_desktop.png"
+              alt="Натуральный линолеум в детском саду"
+              class="usage__image-desktop"
+            />
+            <img
+              src="./assets/images/photo-gallery/dushes/about_mobile.jpg"
+              alt="Мармолеум в детском саду"
+              class="usage__image-mobile"
+            />
+          </div>
+          <div class="usage__articles-container">
+            <p class="usage__articles-title">
+              Используемые артикулы
+              <a href="./marmoleum-walton-uni.htm">коллекции Walton Uni:</a>
+            </p>
+            <div class="usage__articles-images">
+              <img
+                src="./assets/images/photo-gallery/dushes/article-1.png"
+                alt="Marmoleum Walton Uni 17335"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-header">
+        <div class="app-container">
+          <h5 class="section-header__title">Объект 2016 года</h5>
+        </div>
+      </section>
+      <section class="photos">
+        <div class="app-container">
+          <h3 class="photos-title">
+            Фотографии в интерьере детский сад «Дюшес»
+          </h3>
+          <div class="photos-grid">
+            <img
+              src="./assets/images/photo-gallery/dushes/photo_1.jpg"
+              alt=""
+              class="photos-grid__image"
+            />
+          </div>
+          <div class="photos-slider">
+            <div class="photos-slider__container">
+              <div class="photos-slider__slides-container">
+                <img
+                  src="./assets/images/photo-gallery/dushes/photo_1.jpg"
+                  alt=""
+                  class="photos-slider__image photos-slider__image--active"
+                />
+              </div>
+            </div>
+            <div class="photos-slider__dots-container">
+              <div class="photos-slider__dot photos-slider__dot--active"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      @@include('./components/_photogallery-objects.html')
+    </main>
+    @@include('./components/_footer.html')
+    <script src="./script/header.min.js"></script>
+    <script src="./script/photo-object.min.js"></script>
+    <script src="./script/photogallery-objects.js"></script>
+  </body>
+</html>

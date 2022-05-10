@@ -105,17 +105,22 @@
 
 .usage__articles-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 430px;
   @media screen and (max-width: $tablet) {
     width: 100%;
     margin-top: 20px;
   }
 
+  img {
+    margin: 0 10px;
+  }
+
   @media screen and (max-width: $mobile) {
     img {
-      width: 70px;
-      height: 70px;
+      width: 65px;
+      height: 65px;
+      margin: 0 5px;
     }
   }
 }

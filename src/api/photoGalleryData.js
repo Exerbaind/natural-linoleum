@@ -10,7 +10,7 @@ function PhotoGalleryData() {
     {
       name: "Детский сад «Дюшес»",
       type: "object",
-      link: "./real-foto-v-dushes.html",
+      link: "./photo-dushes.html",
       image: "./assets/images/photo-gallery/dushes.png",
       subtitle: "Нажмите, чтобы посмотрть полностью",
     },
