@@ -31,14 +31,14 @@ function PhotoGalleryData() {
     {
       name: "Детский развлекательный клуб «Happy Land»",
       type: "object",
-      link: "./detskiy-centr-happy-land.htm",
+      link: "./photo-happy_land.htm",
       image: "./assets/images/photo-gallery/happy_land.png",
       subtitle: "Нажмите, чтобы посмотрть полностью",
     },
     {
       name: "Государственный Эрмитаж",
       type: "object",
-      link: "./real-foto-v-hermitage.html",
+      link: "./photo-hermitage.html",
       image: "./assets/images/photo-gallery/hermitage.png",
       subtitle: "Нажмите, чтобы посмотрть полностью",
     },
