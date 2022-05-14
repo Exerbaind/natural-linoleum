@@ -1,0 +1,160 @@
+<?php header("Content-Type:text/html;charset=utf-8");?>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <meta
+      name="description"
+      content="Для квартиры с полукруглыми окнами на мансарде в самом центре Санкт-Петербурга наш клиент выбрал красивый теплый оттенок натурального линолеума Forbo Marmoleum Real (на фото). Для обустройства помещения больше всего подошел цвет корицы."
+    />
+    <meta
+      name="keywords"
+      content="натуральный линолеум фото в интерьере частного дома"
+    />
+    <link rel="stylesheet" href="./style/main.min.css" />
+    <title>Натуральный линолеум фото в интерьере частного дома</title>
+  </head>
+  <body>
+    @@include('./components/_header.html')
+    <main class="photo-object">
+      <section class="about">
+        <div class="about__layer">
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__page">
+              <img
+                src="./assets/images/photo-gallery/private_house/main.png"
+                alt="Натуральный линолеум фото в интерьере частного дома"
+                class="about__image"
+              />
+              <div class="about__content">
+                <h1 class="about__page-title">
+                  Натуральный линолеум фото в интерьере частного дома
+                </h1>
+                <p class="about__page-text">
+                  Для квартиры с полукруглыми окнами на мансарде в самом центре
+                  Санкт-Петербурга наш клиент выбрал красивый теплый оттенок
+                  натурального линолеума Forbo Marmoleum Real (на фото). Для
+                  обустройства помещения больше всего подошел цвет корицы.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="usage">
+        <p class="usage-message">*Артикулы сняты с производства</p>
+        <div class="app-container">
+          <div class="usage__container">
+            <div class="usage-content">
+              <h2 class="usage-content__title">
+                Натуральный линолеум в частном доме
+              </h2>
+              <p class="usage-content__text">
+                Для этого объекта мы не только поставили материал, но также
+                осуществили его укладку. Результат превзошел все ожидания.
+                Теперь, когда ранним утром первые лучи солнца озаряют комнату,
+                натуральный линолеум словно переливается, играет с цветом и
+                светом на своей поверхности.
+              </p>
+              <p class="usage-content__text">
+                Коллекция натурального линолеума Forbo Marmoleum Real (на фото)
+                — одна из самых больших коллекций натурального линолеума.
+                Неудивительно, что наши клиенты смогли найти подходящий оттенок
+                именно среди ее цветов.
+              </p>
+              <p class="usage-content__text">
+                Натуральный линолеум Forbo Marmoleum Real — это прекрасное
+                решение для домаи квартиры. Это покрытие, которое не боится
+                износа, и при этом оно теплое, приятноена ощупь, по нему
+                комфортно ходить босиком.
+              </p>
+            </div>
+            <img
+              src="./assets/images/photo-gallery/private_house/about_desktop.png"
+              alt="Натуральный линолеум в частном доме"
+              class="usage__image-desktop"
+            />
+            <img
+              src="./assets/images/photo-gallery/private_house/about_mobile.jpg"
+              alt="Мармолеум в частном доме"
+              class="usage__image-mobile"
+            />
+          </div>
+          <div class="usage__articles-container">
+            <p class="usage__articles-title">
+              Используемые артикулы
+              <a href="./marmoleum-real.htm">коллекции Real:</a>
+            </p>
+            <div class="usage__articles-images">
+              <img
+                src="./assets/images/photo-gallery/private_house/article_1.png"
+                alt="Marmoleum Real 3164"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-header">
+        <div class="app-container">
+          <h5 class="section-header__title">Объект 2016 года</h5>
+        </div>
+      </section>
+      <section class="photos">
+        <div class="app-container">
+          <h3 class="photos-title">Фотографии в интерьере частной квартире</h3>
+          <div class="photos-grid">
+            <img
+              src="./assets/images/photo-gallery/private_house/photo_1.jpg"
+              alt=""
+              class="photos-grid__image"
+            />
+            <img
+              src="./assets/images/photo-gallery/private_house/photo_2.jpg"
+              alt=""
+              class="photos-grid__image"
+            />
+          </div>
+          <div class="photos-slider">
+            <div class="photos-slider__container">
+              <img
+                src="./assets/icons/double-arrow.svg"
+                class="photos-slider__arrow back"
+                id="prev-slide"
+              />
+              <div class="photos-slider__slides-container">
+                <img
+                  src="./assets/images/photo-gallery/private_house/photo_1.jpg"
+                  alt=""
+                  class="photos-slider__image photos-slider__image--active"
+                />
+                <img
+                  src="./assets/images/photo-gallery/private_house/photo_2.jpg"
+                  alt=""
+                  class="photos-slider__image"
+                />
+              </div>
+              <img
+                src="./assets/icons/double-arrow.svg"
+                class="photos-slider__arrow next"
+                id="next-slide"
+              />
+            </div>
+            <div class="photos-slider__dots-container">
+              <div class="photos-slider__dot photos-slider__dot--active"></div>
+              <div class="photos-slider__dot"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      @@include('./components/_photogallery-objects.html')
+    </main>
+    @@include('./components/_footer.html')
+    <script src="./script/header.min.js"></script>
+    <script src="./script/photo-object.min.js"></script>
+    <script src="./script/photogallery-objects.js"></script>
+  </body>
+</html>
