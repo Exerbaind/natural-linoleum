@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Marmoleum Striato – это высококачественное напольное покрытие,
@@ -15,6 +15,7 @@
     />
     <meta name="keywords" content="forbo striato форбо стриато мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Striato натуральный линолеум</title>
   </head>
   <body>
@@ -45,43 +46,43 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Стриато</h3>
+              <p class="about__collection-text">
+                Среди оттенков Мармолеума Стриато встречаются классические
+                расцветки дерева, а также веселые яркие дизайны. Мармолеум под
+                дерево Marmoleum Striato благодаря своему рисунку может
+                визуально изменить параметры пространства: сделать его шире или
+                длиннее. Покрытие также выигрышно смотрится в несложных
+                геометрических дизайнах.
+              </p>
+              <p class="about__collection-text">
+                Один и тот же цвет Мармолеума Стриато можно чередовать, меняя
+                направленность линий, что позволяет создавать неповторимый
+                интерьер. Кроме того артикулы полосатого линолеум Marmoleum
+                Striato хорошо сочетаются между собой и могут использоваться в
+                дизайнах.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум в полоску Marmoleum Striato подойдет для
+                креативных пространств, музеев современного искусства,
+                современных офисов компаний, школ.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Стриато</h3>
-                <p class="about__collection-text">
-                  Среди оттенков Мармолеума Стриато встречаются классические
-                  расцветки дерева, а также веселые яркие дизайны. Мармолеум под
-                  дерево Marmoleum Striato благодаря своему рисунку может
-                  визуально изменить параметры пространства: сделать его шире
-                  или длиннее. Покрытие также выигрышно смотрится в несложных
-                  геометрических дизайнах.
-                </p>
-                <p class="about__collection-text">
-                  Один и тот же цвет Мармолеума Стриато можно чередовать, меняя
-                  направленность линий, что позволяет создавать неповторимый
-                  интерьер. Кроме того артикулы полосатого линолеум Marmoleum
-                  Striato хорошо сочетаются между собой и могут использоваться в
-                  дизайнах.
-                </p>
-                <p class="about__collection-text">
-                  Натуральный линолеум в полоску Marmoleum Striato подойдет для
-                  креативных пространств, музеев современного искусства,
-                  современных офисов компаний, школ.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

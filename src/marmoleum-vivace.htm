@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="«Vivace» переводится с итальянского как «живой». Действительно, коллекция натурального линолеума под мрамор Marmoleum Vivace позволяет создать очень динамичный, жизнерадостный интерьер."
     />
     <meta name="keywords" content="forbo vivace форбо виваче мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Vivace натуральный линолеум</title>
   </head>
   <body>
@@ -41,40 +42,39 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Виваче</h3>
+              <p class="about__collection-text">
+                Коллекция состоит из 12 оттенков, имитирующий рисунок
+                натурального мрамора. Это покрытие придется по вкусу поклонникам
+                искусства не только из-за яркой цветовой палитры. Один из
+                артикулов натурального линолеума под мрамор Marmoleum Vivace был
+                назван в честь одноименной картины Марка Шагала «Цирк»,
+                написанного в 1980 году, он даже выполнен в цветах знаменитого
+                произведения.
+              </p>
+              <p class="about__collection-text">
+                Покрытие позволяет создать очень стильный, нетривиальный
+                интерьер, поэтому оно легко впишется в атмосферу
+                арт-пространства или ресторана. Натуральный линолеум под мрамор
+                Marmoleum Vivace – это поистине шедевр современной дизайнерской
+                мысли, поэтому он так нравится всем ценителям прекрасного.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Виваче</h3>
-                <p class="about__collection-text">
-                  Коллекция состоит из 12 оттенков, имитирующий рисунок
-                  натурального мрамора. Это покрытие придется по вкусу
-                  поклонникам искусства не только из-за яркой цветовой палитры.
-                  Один из артикулов натурального линолеума под мрамор Marmoleum
-                  Vivace был назван в честь одноименной картины Марка Шагала
-                  «Цирк», написанного в 1980 году, он даже выполнен в цветах
-                  знаменитого произведения.
-                </p>
-                <p class="about__collection-text">
-                  Покрытие позволяет создать очень стильный, нетривиальный
-                  интерьер, поэтому оно легко впишется в атмосферу
-                  арт-пространства или ресторана. Натуральный линолеум под
-                  мрамор Marmoleum Vivace – это поистине шедевр современной
-                  дизайнерской мысли, поэтому он так нравится всем ценителям
-                  прекрасного.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Коллекция натурального линолеума Marmoleum Piano – это альтернатива однотонным дизайнам Marmoleum Walton. Главное преимущество покрытия – его едва заметный рисунок. Издали натуральный линолеум Marmoleum Piano выглядит практически однотонным, при этом микровкрапления отлично маскируют грязь, делая ее почти незаметной."
     />
     <meta name="keywords" content="forbo piano форбо пиано мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Piano натуральный линолеум</title>
   </head>
 
@@ -43,42 +44,42 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Пиано</h3>
+              <p class="about__collection-text">
+                Натуральный линолеум Marmoleum Piano подходит для сдержанных
+                аскетичных по цвету и дизайну интерьеров, выполненных в стиле
+                минимализм. Однако покрытие также может использоваться и в
+                эклектичных помещениях, в которых смешиваются разные стили и
+                культуры.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум Marmoleum Piano обеспечивает высокое
+                звукопоглощение. Он способен нейтрализовать ударный шум до 18 дБ
+                (при использовании дополнительной подложки). Покрытие может быть
+                использовано при укладке теплых полов.
+              </p>
+              <p class="about__collection-text">
+                Коллекция подойдет для крупных торговых помещений. Цвета
+                натурального линолеума Мармолеум Пиано сочетаются между собой и
+                с цветами других коллекций натурального линолеума Форбо. Это
+                позволяет создавать простые и сложные дизайны из мармолеума.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Пиано</h3>
-                <p class="about__collection-text">
-                  Натуральный линолеум Marmoleum Piano подходит для сдержанных
-                  аскетичных по цвету и дизайну интерьеров, выполненных в стиле
-                  минимализм. Однако покрытие также может использоваться и в
-                  эклектичных помещениях, в которых смешиваются разные стили и
-                  культуры.
-                </p>
-                <p class="about__collection-text">
-                  Натуральный линолеум Marmoleum Piano обеспечивает высокое
-                  звукопоглощение. Он способен нейтрализовать ударный шум до 18
-                  дБ (при использовании дополнительной подложки). Покрытие может
-                  быть использовано при укладке теплых полов.
-                </p>
-                <p class="about__collection-text">
-                  Коллекция подойдет для крупных торговых помещений. Цвета
-                  натурального линолеума Мармолеум Пиано сочетаются между собой
-                  и с цветами других коллекций натурального линолеума Форбо. Это
-                  позволяет создавать простые и сложные дизайны из мармолеума.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

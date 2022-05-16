@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Коллекция однотонного натурального линолеума Marmoleum Walton Cirrus – настоящий подарок для дизайнеров и архитекторов. Ее яркие однотонные оттенки позволяют миксовать артикулы коллекции, создавая уникальные цветовые сочетания. Кроме того, Мармолеум Вэлтон Циррус можно использовать при создании рисунков из натурального линолеума на поверхности пола."
@@ -15,6 +15,7 @@
       content="forbo walton cirrus форбо велтон цирус мармолеум"
     />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Walton Cirrus натуральный линолеум</title>
   </head>
   <body>
@@ -47,52 +48,50 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
-            </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">
-                  О мармолеуме Велтон Цирус
-                </h3>
-                <p class="about__collection-text">
-                  Коллекции натурального линолеума Forbo Marmoleum Walton Cirrus
-                  и Marmoleum Walton Uni названы по фамилии создателя Фредерика
-                  Уолтона, который более чем 150 лет назад запатентовал рецепт
-                  создания универсального и очень прочного напольного покрытия.
-                  Покрытие состоит только из природных компонентов.
-                </p>
-                <p class="about__collection-text">
-                  Яркий однотонный натуральный линолеум Marmoleum Walton Cirrus
-                  подходит для огромного количества коммерческих помещений,
-                  очень разных по своему функционалу. Его палитра будет
-                  одинаково органично смотреться и в детском учреждении или и в
-                  библиотеке, если там ходят в сменной обуви. Это связано с тем,
-                  что на однотонных покрытиях не скрыть следы уличной грязи. С
-                  помощью мастики Forbo покрытию можно придать матовость или
-                  глянцевый блеск.
-                </p>
-                <p class="about__collection-text">
-                  Мы советуем использовать натуральный линолеум Marmoleum Walton
-                  Cirrus в тех случаях, когда дизайн-проект предполагает
-                  создание рисунка на поверхности пола, ведь к этому благоволят
-                  однотонный дизайн и яркие расцветки покрытия. С помощью
-                  Мармолеум Вэлтон Циррус можно брендировать помещение, создав
-                  логотип компании из мармолеума или стилизовать пространство в
-                  соответствии с фирменным стилем.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Велтон Цирус</h3>
+              <p class="about__collection-text">
+                Коллекции натурального линолеума Forbo Marmoleum Walton Cirrus и
+                Marmoleum Walton Uni названы по фамилии создателя Фредерика
+                Уолтона, который более чем 150 лет назад запатентовал рецепт
+                создания универсального и очень прочного напольного покрытия.
+                Покрытие состоит только из природных компонентов.
+              </p>
+              <p class="about__collection-text">
+                Яркий однотонный натуральный линолеум Marmoleum Walton Cirrus
+                подходит для огромного количества коммерческих помещений, очень
+                разных по своему функционалу. Его палитра будет одинаково
+                органично смотреться и в детском учреждении или и в библиотеке,
+                если там ходят в сменной обуви. Это связано с тем, что на
+                однотонных покрытиях не скрыть следы уличной грязи. С помощью
+                мастики Forbo покрытию можно придать матовость или глянцевый
+                блеск.
+              </p>
+              <p class="about__collection-text">
+                Мы советуем использовать натуральный линолеум Marmoleum Walton
+                Cirrus в тех случаях, когда дизайн-проект предполагает создание
+                рисунка на поверхности пола, ведь к этому благоволят однотонный
+                дизайн и яркие расцветки покрытия. С помощью Мармолеум Вэлтон
+                Циррус можно брендировать помещение, создав логотип компании из
+                мармолеума или стилизовать пространство в соответствии с
+                фирменным стилем.
+              </p>
             </div>
           </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
+        </div>
       </section>
       <section class="articles">
         <div class="app-container">

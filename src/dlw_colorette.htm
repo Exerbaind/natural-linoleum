@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Коллекция натурального линолеума DLW Colorette — это яркие фруктовые дизайны. Пожарный сертификат КМ1. Эко-маркировки «Голубой ангел», сертификат LEED, Cradle to Cradle, EPD. Толщина 2,5 мм."
     />
     <meta name="keywords" content="forbo acoustic форбо акустик мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>DLW Colorette натуральное покрытие</title>
   </head>
 
@@ -28,11 +29,12 @@
         </div>
         <div class="intro__content">
           <div class="intro__content-block">
-            <h1 class="intro__title">
-                DLW Colorette натуральное покрытие
-            </h1>
+            <h1 class="intro__title">DLW Colorette натуральное покрытие</h1>
             <p class="intro__text">
-                Коллекция натурального линолеума DLW Colorette — это яркие фруктовые дизайны. Пожарный сертификат КМ1. Эко-маркировки «Голубой ангел», сертификат LEED, Cradle to Cradle, EPD. Толщина 2,5 мм.
+              Коллекция натурального линолеума DLW Colorette — это яркие
+              фруктовые дизайны. Пожарный сертификат КМ1. Эко-маркировки
+              «Голубой ангел», сертификат LEED, Cradle to Cradle, EPD. Толщина
+              2,5 мм.
             </p>
           </div>
           <button class="intro__link">Заказать</button>
@@ -40,38 +42,58 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Германии"
-              />
-              <p>Прямые поставки из Германии</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Германии"
+            />
+            <p>Прямые поставки из Германии</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">
+                О натуральном линолеуме Colorette
+              </h3>
+              <p class="about__collection-text">
+                Яркие, сочные, фруктовые тона — вот что отличает коллекцию
+                натурального линолеума DLW Colorette от прочих. Девятнадцать
+                смелых и радостных оттенков подойдут для интерьеров детских
+                учреждений, креативных студий и офисных пространств. Насыщенная
+                цветовая гамма поможет взбодрить и настроить на рабочий лад
+                Ваших сотрудников.
+              </p>
+              <p class="about__collection-text">
+                Мы также рекомендует натуральный линолеум DLW Colorette для
+                медицинских учреждений. Покрытие не только поможет скрасить
+                больничный режим для пациентов яркими цветами. Оно также
+                противостоит развитию микробов и бактерий (подтверждено ISO
+                22196 И 21702).
+              </p>
+              <p class="about__collection-text">
+                На поверхности натурального линолеума DLW Colorette не
+                скапливается статическое электричество. Материал также
+                отличается низкими показателями по пожарной опасности — у
+                коллекции пожарный сертификат КМ1.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум DLW Colorette отмечен эко-маркировками —
+                «Голубой ангел», Cradle to Cradle, M1 и другими.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум DLW Colorette отмечен эко-маркировками —
+                «Голубой ангел», Cradle to Cradle, M1 и другими. Это значит, что
+                покрытие не выделяет в воздух вредных веществ, оно безопасно для
+                людей. Кроме того, натуральный линолеум DLW Colorette на 98%
+                состоит из природных материалов, 78% из которых могут быть
+                переработаны повторно.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О натуральном линолеуме Colorette</h3>
-                <p class="about__collection-text">
-                    Яркие, сочные, фруктовые тона — вот что отличает коллекцию натурального линолеума  DLW Colorette от прочих. Девятнадцать смелых и радостных оттенков подойдут для интерьеров детских учреждений, креативных студий и офисных пространств. Насыщенная цветовая гамма поможет взбодрить и настроить на рабочий лад Ваших сотрудников.
-                </p>
-                <p class="about__collection-text">
-                    Мы также рекомендует натуральный линолеум DLW Colorette для медицинских учреждений. Покрытие не только поможет скрасить больничный режим для пациентов яркими цветами. Оно также противостоит развитию микробов и бактерий (подтверждено ISO 22196 И 21702).
-                </p>
-                <p class="about__collection-text">
-                    На поверхности натурального линолеума DLW Colorette не скапливается статическое электричество. Материал также отличается низкими показателями по пожарной опасности — у коллекции пожарный сертификат КМ1.
-                </p>
-                <p class="about__collection-text">
-                    Натуральный линолеум DLW Colorette  отмечен эко-маркировками — «Голубой ангел», Cradle to Cradle, M1 и другими.
-                </p>
-                <p class="about__collection-text">
-                    Натуральный линолеум DLW Colorette  отмечен эко-маркировками — «Голубой ангел», Cradle to Cradle, M1 и другими. Это значит, что покрытие не выделяет в воздух вредных веществ, оно безопасно для людей. Кроме того, натуральный линолеум DLW Colorette на 98% состоит из природных материалов, 78% из которых могут быть переработаны повторно.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

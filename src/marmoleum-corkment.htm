@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Corkment – это дополнительная пробковая подложка для натурального линолеума Forbo. Ее основная цель – улучшение акустических свойств мармолеума. Она выпускается в двух толщинах: 2 мм и 3,2 мм. Подложка помогает придать мармолеуму дополнительные свойства, делая его более комфортным и теплым при ходьбе босиком, а также более звукопоглощающим."
     />
     <meta name="keywords" content="forbo corkment подложка пробковая" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Corkment пробковая подложка</title>
   </head>
   <body>
@@ -42,42 +43,40 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О подложке Коркмент</h3>
+              <p class="about__collection-text">
+                Подложка толщиной 2 мм повышает звукопоглощение до 14дБ, а
+                толщиной 3,2 мм – до 17 дБ. Важное преимущество пробковой
+                подложки Forbo Corkment – она может дополнить и обеспечить
+                акустическими свойствами любую коллекцию мармолеума Forbo. Кроме
+                того, ее часто используют в помещениях с бетонными основаниями,
+                так как в этом случае она выступает в качестве теплоизоляции.
+              </p>
+              <p class="about__collection-text">
+                Особое внимание стоит обратить на укладку подложки Коркмент, так
+                как на этом этапе часто возникают ошибки. Пробковая подложка
+                Forbo Corkment должна укладываться на клей джутовым слоем наверх
+                перпендикулярно рулонам мармолеума. Затем необходимо подождать
+                24 часа, чтобы высох клей, и уже потом укладывать выбранную
+                коллекцию натурального линолеума Форбо. Натуральный линолеум
+                укладывается на пробковую подложку также с полным приклеиванием.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О подложке Коркмент</h3>
-                <p class="about__collection-text">
-                  Подложка толщиной 2 мм повышает звукопоглощение до 14дБ, а
-                  толщиной 3,2 мм – до 17 дБ. Важное преимущество пробковой
-                  подложки Forbo Corkment – она может дополнить и обеспечить
-                  акустическими свойствами любую коллекцию мармолеума Forbo.
-                  Кроме того, ее часто используют в помещениях с бетонными
-                  основаниями, так как в этом случае она выступает в качестве
-                  теплоизоляции.
-                </p>
-                <p class="about__collection-text">
-                  Особое внимание стоит обратить на укладку подложки Коркмент,
-                  так как на этом этапе часто возникают ошибки. Пробковая
-                  подложка Forbo Corkment должна укладываться на клей джутовым
-                  слоем наверх перпендикулярно рулонам мармолеума. Затем
-                  необходимо подождать 24 часа, чтобы высох клей, и уже потом
-                  укладывать выбранную коллекцию натурального линолеума Форбо.
-                  Натуральный линолеум укладывается на пробковую подложку также
-                  с полным приклеиванием.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">
@@ -163,13 +162,13 @@
           src="./assets/icons/fullScreenArticlesHandler.svg"
           alt=""
           class="fullScreen-articles__handler nextArticle"
-          style="visibility: hidden;"
+          style="visibility: hidden"
         />
         <img
           src="./assets/icons/fullScreenArticlesHandler.svg"
           alt=""
           class="fullScreen-articles__handler prevArticle"
-          style="visibility: hidden;"
+          style="visibility: hidden"
         />
         <button class="fullScreen-articles__close">
           <img

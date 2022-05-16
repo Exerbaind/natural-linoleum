@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Коллекция натурального линолеума Marmoleum Piano – это альтернатива однотонным дизайнам Marmoleum Walton. Главное преимущество покрытия – его едва заметный рисунок. Издали натуральный линолеум Marmoleum Piano выглядит практически однотонным, при этом микровкрапления отлично маскируют грязь, делая ее почти незаметной."
     />
     <meta name="keywords" content="forbo piano форбо пиано мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Piano натуральный линолеум</title>
   </head>
 
@@ -44,48 +45,48 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Децибел</h3>
+              <p class="about__collection-text">
+                Акустический линолеум Мармолеум Децибел представляет собой
+                сочетание артикулов коллекции Marmoleum Real с приклеенной к ним
+                подложкой. Эта конструкция напольного покрытия может быть
+                использована для таких коллекций мармолеума как: Fresco, Vivace
+                и Concrete. Это означает, что любое покрытие из этих коллекций
+                на производстве под заказ от 180 кв.м. фабрика может дополнить
+                этой звукопоглощающей подложкой, таким образом, расширив
+                ассортимент расцветок акустического линолеума.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум Marmoleum Decibel подходит для
+                переговорных, школ иностранного языка и даже звукозаписывающих
+                студий. Покрытие можно использовать в детских садах и студиях
+                для малышей. Там оно будет полезно не только благодаря своим
+                акустическим свойствам, но и потому что это покрытие
+                препятствует развитию вредных микроорганизмов.
+              </p>
+              <p class="about__collection-text">
+                Акустический Мармолеум Децибел позволяет снизить уровень шума в
+                крупных офисах, создавая при этом неповторимый внешний облик
+                помещения. Яркие расцветки натурального линолеума Forbo
+                Marmoleum Decibel освежат любой интерьер, сделают его уникальным
+                и вдохновляющим.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Децибел</h3>
-                <p class="about__collection-text">
-                  Акустический линолеум Мармолеум Децибел представляет собой
-                  сочетание артикулов коллекции Marmoleum Real с приклеенной к
-                  ним подложкой. Эта конструкция напольного покрытия может быть
-                  использована для таких коллекций мармолеума как: Fresco,
-                  Vivace и Concrete. Это означает, что любое покрытие из этих
-                  коллекций на производстве под заказ от 180 кв.м. фабрика может
-                  дополнить этой звукопоглощающей подложкой, таким образом,
-                  расширив ассортимент расцветок акустического линолеума.
-                </p>
-                <p class="about__collection-text">
-                  Натуральный линолеум Marmoleum Decibel подходит для
-                  переговорных, школ иностранного языка и даже звукозаписывающих
-                  студий. Покрытие можно использовать в детских садах и студиях
-                  для малышей. Там оно будет полезно не только благодаря своим
-                  акустическим свойствам, но и потому что это покрытие
-                  препятствует развитию вредных микроорганизмов.
-                </p>
-                <p class="about__collection-text">
-                  Акустический Мармолеум Децибел позволяет снизить уровень шума
-                  в крупных офисах, создавая при этом неповторимый внешний облик
-                  помещения. Яркие расцветки натурального линолеума Forbo
-                  Marmoleum Decibel освежат любой интерьер, сделают его
-                  уникальным и вдохновляющим.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

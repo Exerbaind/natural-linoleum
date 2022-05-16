@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Дизайн Мармолеума Конкрит немного напоминает рисунок мрамора, однако, с небольшой особенностью. Создатели коллекции в процессе разработки использовали необычные цветовые сочетания, смешав серые и розовые оттенки, оранжевые и зеленые. При этом рисунок натурального линолеума Marmoleum Concrete едва заметен и в некоторой степени напоминает бетон."
     />
     <meta name="keywords" content="forbo concrete форбо конкрит мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Concrete натуральный линолеум</title>
   </head>
   <body>
@@ -44,42 +45,42 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Конкрит</h3>
+              <p class="about__collection-text">
+                Мармолеум Конкрит относится к группе коллекций Marmoleum Solid.
+                Ключевым отличием этих покрытий является их сдержанный дизайн:
+                однотонный или с едва заметным рисунком. Стоит отметить, что
+                именно благодаря своему дизайну натуральный линолеум Marmoleum
+                Concrete скрывает мелкие загрязнения.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум под бетон Marmoleum Concrete долгое время
+                славился только своими строгими серыми дизайнами, однако в 2017
+                году коллекция была обновлена и дополнена шестью яркими
+                артикулами.
+              </p>
+              <p class="about__collection-text">
+                Покрытие можно использовать в помещениях с высокой
+                проходимостью, например, в торговых залах, коридорах
+                бизнес-центров. Оно также подойдет для конференц-залов,
+                дизайн-студий и в офисах компаний креативной сферы.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Конкрит</h3>
-                <p class="about__collection-text">
-                  Мармолеум Конкрит относится к группе коллекций Marmoleum
-                  Solid. Ключевым отличием этих покрытий является их сдержанный
-                  дизайн: однотонный или с едва заметным рисунком. Стоит
-                  отметить, что именно благодаря своему дизайну натуральный
-                  линолеум Marmoleum Concrete скрывает мелкие загрязнения.
-                </p>
-                <p class="about__collection-text">
-                  Натуральный линолеум под бетон Marmoleum Concrete долгое время
-                  славился только своими строгими серыми дизайнами, однако в
-                  2017 году коллекция была обновлена и дополнена шестью яркими
-                  артикулами.
-                </p>
-                <p class="about__collection-text">
-                  Покрытие можно использовать в помещениях с высокой
-                  проходимостью, например, в торговых залах, коридорах
-                  бизнес-центров. Оно также подойдет для конференц-залов,
-                  дизайн-студий и в офисах компаний креативной сферы.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

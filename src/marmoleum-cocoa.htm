@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Натуральный линолеум с какао Marmoleum Cocoa – это одно из самых необычных напольных покрытий Forbo. Этот завод издавна славился своим разумным подходом к созданию материалов, однако в этом случае просто превзошел себя. В состав и без того натурального линолеума Marmoleum Cocoa была добавлена скорлупа какао-бобов, что помогло придать эстетичность покрытию и сделало его еще более экологичным."
     />
     <meta name="keywords" content="forbo cocoa форбо какао мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Cocoa натуральный линолеум</title>
   </head>
   <body>
@@ -45,43 +46,43 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Какао</h3>
+              <p class="about__collection-text">
+                Натуральный линолеум с какао Marmoleum Cocoa - это гимн
+                концепции устойчивого дизайна, которого придерживается завод
+                Форбо. Стоит отметить, что исторически завод Forbo находится в
+                той же местности, что фабрика шоколада. Это позволяет
+                использовать остатки продуктов одного производства на благо
+                другого, снизив тем самым загрязнение окружающей среды.
+              </p>
+              <p class="about__collection-text">
+                Еще одна особенность натурального линолеума с какао Marmoleum
+                Cocoa, которая отлично порадует рачительных хозяев, - это
+                покрытие отлично скрывает грязь. Кроме того, весь мармолеум
+                прост в уходе, он также обладает антибактериальными свойствами,
+                поэтому может совершенно спокойно использоваться в помещениях,
+                где есть маленькие дети.
+              </p>
+              <p class="about__collection-text">
+                В 2017 году натуральный линолеум с какао Marmoleum Cocoa был
+                удостоен премии в области дизайна iF DESIGN AWARD 2017.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Какао</h3>
-                <p class="about__collection-text">
-                  Натуральный линолеум с какао Marmoleum Cocoa - это гимн
-                  концепции устойчивого дизайна, которого придерживается завод
-                  Форбо. Стоит отметить, что исторически завод Forbo находится в
-                  той же местности, что фабрика шоколада. Это позволяет
-                  использовать остатки продуктов одного производства на благо
-                  другого, снизив тем самым загрязнение окружающей среды.
-                </p>
-                <p class="about__collection-text">
-                  Еще одна особенность натурального линолеума с какао Marmoleum
-                  Cocoa, которая отлично порадует рачительных хозяев, - это
-                  покрытие отлично скрывает грязь. Кроме того, весь мармолеум
-                  прост в уходе, он также обладает антибактериальными
-                  свойствами, поэтому может совершенно спокойно использоваться в
-                  помещениях, где есть маленькие дети.
-                </p>
-                <p class="about__collection-text">
-                  В 2017 году натуральный линолеум с какао Marmoleum Cocoa был
-                  удостоен премии в области дизайна iF DESIGN AWARD 2017.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

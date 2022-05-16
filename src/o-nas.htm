@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Мы команда профессионалов в сфере напольных покрытий. Мы —
@@ -18,6 +18,7 @@
       content="гельстер эксперт по мармолеуму, о компании гельстер, тск гельстер"
     />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Гельстер - эксперт по мармолеуму</title>
   </head>
   <body>
@@ -84,41 +85,41 @@
           </div>
         </div>
       </section>
-        <section class="design-block">
+      <section class="design-block">
+        <img
+          src="./assets/images/o-nas/design.jpg"
+          alt="Важность напольного покрытия"
+          class="design-block__image"
+        />
+        <div class="design-block__content">
+          <p class="design-block__text">
+            От того, каким будет ваше напольное покрытие, зависит ваше
+            настроение, ощущение себя дома или на работе.
+          </p>
+          <p class="design-block__text">
+            Мы посвятили свою жизнь напольным покрытиям, чтобы помочь вам
+            сделать эту важную часть интерьера еще и любимой.
+          </p>
+          <p class="design-block__text">
+            Напольные покрытия есть везде, они каждый день присутствуют в вашей
+            жизни, и важно, чтобы они были подобраны правильно.
+          </p>
+          <p class="design-block__text">
+            Чтобы в транспорте вы не скользили и не падали. Чтобы в фитнес-клубе
+            во время упражнений, не страдали ваши суставы. Чтобы ваши дети,
+            бегая по спортзалу на уроке физкультуры, не получали травм и не
+            выбивали колени.
+          </p>
+          <p class="design-block__text-bold">
+            Мы каждый день работаем над тем, чтобы отобрать среди множества
+            производителей и покрытий только лучшие и предложить их вам.
+          </p>
           <img
-            src="./assets/images/o-nas/design.jpg"
-            alt="Важность напольного покрытия"
-            class="design-block__image"
+            src="./assets/images/o-nas/design-article.png"
+            alt=""
+            class="design-block__article design-block__left"
           />
-          <div class="design-block__content">
-            <p class="design-block__text">
-              От того, каким будет ваше напольное покрытие, зависит ваше
-              настроение, ощущение себя дома или на работе.
-            </p>
-            <p class="design-block__text">
-              Мы посвятили свою жизнь напольным покрытиям, чтобы помочь вам
-              сделать эту важную часть интерьера еще и любимой.
-            </p>
-            <p class="design-block__text">
-              Напольные покрытия есть везде, они каждый день присутствуют в
-              вашей жизни, и важно, чтобы они были подобраны правильно.
-            </p>
-            <p class="design-block__text">
-              Чтобы в транспорте вы не скользили и не падали. Чтобы в
-              фитнес-клубе во время упражнений, не страдали ваши суставы. Чтобы
-              ваши дети, бегая по спортзалу на уроке физкультуры, не получали
-              травм и не выбивали колени.
-            </p>
-            <p class="design-block__text-bold">
-              Мы каждый день работаем над тем, чтобы отобрать среди множества
-              производителей и покрытий только лучшие и предложить их вам.
-            </p>
-            <img
-              src="./assets/images/o-nas/design-article.png"
-              alt=""
-              class="design-block__article design-block__left"
-            />
-          </div>
+        </div>
       </section>
       @@include('./components/_page-articles.html')
     </main>

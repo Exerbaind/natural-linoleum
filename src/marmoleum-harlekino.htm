@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Напольная дизайнерская мозаика Marmoleum Meets Mendini Harlekino выполнена на основе коллекции натурального линолеума Forbo Marmoleum Real. Семь ярких цветов и семь сдержанных оттенков, стилизованных под мрамор, помогут создать очень красивый классический интерьер."
     />
     <meta name="keywords" content="forbo harlekino форбо харлекино мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Harlekino натуральный линолеум</title>
   </head>
   <body>
@@ -42,41 +43,40 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Харлекино</h3>
+              <p class="about__collection-text">
+                Дизайнерская мозаика для пола Marmoleum Harlekino - это сердце
+                коллекции Meets Mendini, разработанной экспертами Форбо
+                совместно с итальянским архитектором и дизайнером Алессандро
+                Мендини. Арлекин – образ, с которым себя ассоциирует сам
+                художник. Собственно, форма фрагмента готовой дизайнерской
+                мозаики Marmoleum Meets Mendini Harlekino напоминает колпак
+                этого персонажа.
+              </p>
+              <p class="about__collection-text">
+                Покрытие поможет создать яркий, нетривиальный интерьер для таких
+                типов помещений, как ресторан, бутик, галерея. Напольная
+                дизайнерская мозаика Marmoleum Meets Mendini Harlekino подойдет
+                для дизайн-проектов в классическом стиле. Она хорошо сочетается
+                с мрамором. Интерьеры, в которых используется мозаика Мармолеум
+                Мендини Арлекино, не потеряют с годами своей актуальности.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Харлекино</h3>
-                <p class="about__collection-text">
-                  Дизайнерская мозаика для пола Marmoleum Harlekino - это сердце
-                  коллекции Meets Mendini, разработанной экспертами Форбо
-                  совместно с итальянским архитектором и дизайнером Алессандро
-                  Мендини. Арлекин – образ, с которым себя ассоциирует сам
-                  художник. Собственно, форма фрагмента готовой дизайнерской
-                  мозаики Marmoleum Meets Mendini Harlekino напоминает колпак
-                  этого персонажа.
-                </p>
-                <p class="about__collection-text">
-                  Покрытие поможет создать яркий, нетривиальный интерьер для
-                  таких типов помещений, как ресторан, бутик, галерея. Напольная
-                  дизайнерская мозаика Marmoleum Meets Mendini Harlekino
-                  подойдет для дизайн-проектов в классическом стиле. Она хорошо
-                  сочетается с мрамором. Интерьеры, в которых используется
-                  мозаика Мармолеум Мендини Арлекино, не потеряют с годами своей
-                  актуальности.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

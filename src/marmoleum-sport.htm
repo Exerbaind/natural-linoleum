@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Marmoleum Sport – это единственное напольное покрытие в линейке натурального линолеума Форбо, предназначенное для спортивных залов. Мармолеум Спорт хорошо подходит для детских образовательных учреждений, где есть тренировочные залы, для вузов (например, для кафедры физической культуры), для залов аэробики, а также для частных спортзалов."
     />
     <meta name="keywords" content="forbo sport форбо спорт мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>Forbo Marmoleum Sport натуральный линолеум</title>
   </head>
 
@@ -45,42 +46,42 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Нидерландов"
-              />
-              <p>Прямые поставки из Нидерландов</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Нидерландов"
+            />
+            <p>Прямые поставки из Нидерландов</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">О мармолеуме Спорт</h3>
+              <p class="about__collection-text">
+                Спортивный натуральный линолеум Marmoleum Sport помогает
+                защитить юных спортсменов от травм, снизить нагрузку на суставы
+                и обеспечить необходимый для занятий спортом уровень
+                противоскольжения. Покрытие подходит для нанесения спортивной
+                разметки Forbo Eurocol, которая будет держаться на покрытии
+                долгие годы. Однако покрытие можно также использовать в залах
+                без разметки.
+              </p>
+              <p class="about__collection-text">
+                Мармолеум Спорт выпускается в двенадцати популярных цветах
+                натурального линолеума Forbo. Покрытие маскирует загрязнения,
+                оно устойчиво к мелким царапинам и может быть подвергнуто
+                восстановлению. Это единственное эластичное спортивное покрытие,
+                созданное только из природных материалов. Спортивный натуральный
+                линолеум Marmoleum Sport обеспечивает вертикальный отскок мяча ≥
+                90% (согласно EN 14904) и относится к эластичным спортивным
+                покрытиям.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О мармолеуме Спорт</h3>
-                <p class="about__collection-text">
-                  Спортивный натуральный линолеум Marmoleum Sport помогает
-                  защитить юных спортсменов от травм, снизить нагрузку на
-                  суставы и обеспечить необходимый для занятий спортом уровень
-                  противоскольжения. Покрытие подходит для нанесения спортивной
-                  разметки Forbo Eurocol, которая будет держаться на покрытии
-                  долгие годы. Однако покрытие можно также использовать в залах
-                  без разметки.
-                </p>
-                <p class="about__collection-text">
-                  Мармолеум Спорт выпускается в двенадцати популярных цветах
-                  натурального линолеума Forbo. Покрытие маскирует загрязнения,
-                  оно устойчиво к мелким царапинам и может быть подвергнуто
-                  восстановлению. Это единственное эластичное спортивное
-                  покрытие, созданное только из природных материалов. Спортивный
-                  натуральный линолеум Marmoleum Sport обеспечивает вертикальный
-                  отскок мяча ≥ 90% (согласно EN 14904) и относится к эластичным
-                  спортивным покрытиям.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">

@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <meta
       name="description"
       content="Однотонный натуральный линолеум DLW. Защитный слой Neocare. Эко-маркировки «Голубой ангел», LEED, EPD, M1 и др. Пожарный сертификат КМ1."
     />
     <meta name="keywords" content="forbo acoustic форбо акустик мармолеум" />
     <link rel="stylesheet" href="./style/main.min.css" />
+    @@include('./components/_metrics.html')
     <title>DLW Uni Walton натуральное покрытие</title>
   </head>
 
@@ -28,11 +29,11 @@
         </div>
         <div class="intro__content">
           <div class="intro__content-block">
-            <h1 class="intro__title">
-                DLW Uni Walton натуральное покрытие
-            </h1>
+            <h1 class="intro__title">DLW Uni Walton натуральное покрытие</h1>
             <p class="intro__text">
-                Однотонный натуральный линолеум DLW. Защитный слой Neocare. Эко-маркировки «Голубой ангел», LEED, EPD, M1 и др. Пожарный сертификат КМ1.
+              Однотонный натуральный линолеум DLW. Защитный слой Neocare.
+              Эко-маркировки «Голубой ангел», LEED, EPD, M1 и др. Пожарный
+              сертификат КМ1.
             </p>
           </div>
           <button class="intro__link">Заказать</button>
@@ -40,35 +41,56 @@
       </section>
       <section class="about">
         <div class="about__layer">
-            <div class="about__side">
-              <img
-                src="./assets/icons/production.svg"
-                alt="Прямая поставка из Германии"
-              />
-              <p>Прямые поставки из Германии</p>
+          <div class="about__side">
+            <img
+              src="./assets/icons/production.svg"
+              alt="Прямая поставка из Германии"
+            />
+            <p>Прямые поставки из Германии</p>
+          </div>
+          <div class="about__sections">
+            @@include('./components/_about-marmoleum-links.html')
+            <div class="about__collection">
+              <h3 class="about__collection-title">
+                О натуральном линолеуме Uni Walton
+              </h3>
+              <p class="about__collection-text">
+                Коллекция однотонного натурального линолеума DLW Uni Walton
+                названа так в честь создателя этого материала — Фредерика
+                Уолтона, который в 1863 года создал первый в мире линолеум.
+                Тогда это напольное покрытие создавалось в одном единственном
+                цвете из-за того, что красители еще не научились добавлять в
+                состав материала. Неудивительно, что коллекция однотонного
+                натурального линолеума получила имя своего создателя.
+              </p>
+              <p class="about__collection-text">
+                Натуральный линолеум DLW Uni Walton — это коллекция из
+                шестнадцати спокойных расцветок, сдержанный и приглушенных.
+                Гармоничным дизайн этого покрытия делает также матовая
+                поверхность – материал выглядит дорого и престижно. Поэтому
+                коллекцию однотонного натурального линолеума DLW Uni Walton так
+                любят дизайнеры и архитекторы.
+              </p>
+              <p class="about__collection-text">
+                Как и другие коллекции DLW натуральный линолеум DLW Uni Walton —
+                это экологичное покрытие, которое отмечено международными
+                сертификатами и эко-маркировками, такими как Blue Angel, M1,
+                Floorscore и Cradle to Cradle. Покрытие не выделяет в воздух
+                вредных веществ, оно безопасно для людей и окружающей среды.
+              </p>
+              <p class="about__collection-text">
+                Кроме того, материал на 98% состоит из природных компонентов,
+                76% из которых — это возобновляемые ресурсы. Натуральный
+                линолеум DLW Uni Walton выпускается в толщине 2,5 мм, что
+                позволяет сочетать его с любыми другими коллекциями натурального
+                линолеума.
+              </p>
             </div>
-            <div class="about__sections">
-              @@include('./components/_about-marmoleum-links.html')
-              <div class="about__collection">
-                <h3 class="about__collection-title">О натуральном линолеуме Uni Walton</h3>
-                <p class="about__collection-text">
-                    Коллекция однотонного натурального линолеума DLW Uni Walton названа так в честь создателя этого материала — Фредерика Уолтона, который в 1863 года создал первый в мире линолеум. Тогда это напольное покрытие создавалось в одном единственном цвете из-за того, что красители еще не научились добавлять в состав материала. Неудивительно, что коллекция однотонного натурального линолеума получила имя своего создателя.
-                </p>
-                <p class="about__collection-text">
-                    Натуральный линолеум DLW Uni Walton — это коллекция из шестнадцати спокойных расцветок, сдержанный и приглушенных. Гармоничным дизайн этого покрытия делает также матовая поверхность – материал выглядит дорого и престижно. Поэтому коллекцию однотонного натурального линолеума DLW Uni Walton так любят дизайнеры и архитекторы.
-                </p>
-                <p class="about__collection-text">
-                    Как и другие коллекции DLW натуральный линолеум DLW Uni Walton — это экологичное покрытие, которое отмечено международными сертификатами и эко-маркировками, такими как Blue Angel, M1, Floorscore и Cradle to Cradle. Покрытие не выделяет в воздух вредных веществ, оно безопасно для людей и окружающей среды.
-                </p>
-                <p class="about__collection-text">
-                    Кроме того, материал на 98% состоит из природных компонентов, 76% из  которых — это возобновляемые ресурсы. Натуральный линолеум DLW Uni Walton выпускается в толщине 2,5 мм, что позволяет сочетать его с любыми другими коллекциями натурального линолеума.
-                </p>
-              </div>
-            </div>
-            <div class="about__side">
-              <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
-              <p>Мы продаем мармолеум на отрез от 5 м²</p>
-            </div>
+          </div>
+          <div class="about__side">
+            <img src="./assets/icons/crop.svg" alt="Продажа на отрез" />
+            <p>Мы продаем мармолеум на отрез от 5 м²</p>
+          </div>
         </div>
       </section>
       <section class="articles">
