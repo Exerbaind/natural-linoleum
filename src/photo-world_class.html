@@ -23,7 +23,7 @@
   </head>
   <body>
     @@include('./components/_header.html')
-    <main class="photo-object">
+    <main class="photo-object" data-photos="world_class">
       <section class="about">
         <div class="about__layer">
           <div class="about__sections">
@@ -365,11 +365,13 @@
           </div>
         </div>
       </section>
+      @@include('./components/_photos-modal.html')
       @@include('./components/_photogallery-objects.html')
     </main>
     @@include('./components/_footer.html')
     <script src="./script/header.min.js"></script>
     <script src="./script/photo-object.min.js"></script>
     <script src="./script/photogallery-objects.js"></script>
+    <script src="./script/photos-modal.min.js"></script>
   </body>
 </html>

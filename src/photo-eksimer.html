@@ -21,7 +21,7 @@
   </head>
   <body>
     @@include('./components/_header.html')
-    <main class="photo-object">
+    <main class="photo-object" data-photos="eksimer">
       <section class="about">
         <div class="about__layer">
           <div class="about__sections">
@@ -212,10 +212,12 @@
         </div>
       </section>
       @@include('./components/_photogallery-objects.html')
+      @@include('./components/_photos-modal.html')
     </main>
     @@include('./components/_footer.html')
     <script src="./script/header.min.js"></script>
     <script src="./script/photo-object.min.js"></script>
     <script src="./script/photogallery-objects.js"></script>
+    <script src="./script/photos-modal.min.js"></script>
   </body>
 </html>
