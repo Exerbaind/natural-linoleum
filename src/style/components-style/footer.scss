@@ -2,12 +2,13 @@
   background-color: #524d4d;
   display: flex;
   justify-content: center;
-  padding: 50px 0;
+  align-items: center;
+  height: 40px;
   @media (max-width: 1500px) {
-    padding: 30px;
+    padding: 0 30px;
   }
   @media (max-width: 900px) {
-    padding: 20px 5px;
+    padding: 0px 5px;
   }
 }
 
@@ -15,6 +16,7 @@
   width: 1500px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   @media (max-width: 1500px) {
     width: 100%;
   }
@@ -26,7 +28,7 @@
 
 .footer__item {
   color: #f0cca0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   @media (max-width: 900px) {
     margin: 5px 0;
