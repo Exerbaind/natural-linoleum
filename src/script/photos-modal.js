@@ -7,7 +7,7 @@ function createFullScreenPhotos(index, photosContainer, photosObjectName) {
 
   fullScreenPhotoImage.setAttribute(
     "src",
-    `../assets/images/photo-gallery/${photosObjectName}/photo_${index + 1}.jpg`
+    `./assets/images/photo-gallery/${photosObjectName}/photo_${index + 1}.jpg`
   );
 
   fullScreenPhotoItem.appendChild(fullScreenPhotoImage);

@@ -336,7 +336,7 @@
   color: #f0cca0;
   font-size: 38px;
   line-height: 44px;
-  font-weight: 400;
+  font-weight: 300;
 
   @media screen and (max-width: $tablet) {
     font-size: 22px;
@@ -349,6 +349,7 @@
   line-height: 30px;
   color: white;
   margin-top: 20px;
+  font-weight: 300;
 
   @media screen and (max-width: $tablet) {
     font-size: 16px;
@@ -523,6 +524,24 @@
   }
 }
 
+.gelster_office {
+  &:first-child {
+    background-image: url(../assets/images/photo-gallery/gelster_office/changes_1.jpg);
+  }
+  &:last-child {
+    background-image: url(../assets/images/photo-gallery/gelster_office/changes_2.jpg);
+  }
+}
+
+.gelster_office_2 {
+  &:first-child {
+    background-image: url(../assets/images/photo-gallery/gelster_office/about_1.jpg);
+  }
+  &:last-child {
+    background-image: url(../assets/images/photo-gallery/gelster_office/about_2.jpg);
+  }
+}
+
 .usage-more__image {
   width: 100%;
   height: 100%;
@@ -535,6 +554,7 @@
   transform: translate(-50%, 50%);
   height: 120px;
   width: 120px;
+  font-weight: 300;
 
   @media screen and (max-width: $tablet) {
     height: 60px;
@@ -544,12 +564,17 @@
 
 .usage-more__content {
   padding: 100px 65px 50px 150px;
+  width: 55%;
 
   @media screen and (max-width: $tablet) {
     width: 100%;
     order: 2;
     padding: 20px 32px 40px 32px;
   }
+}
+
+.less-padding {
+  padding: 50px 65px 50px 150px;
 }
 
 .usage-more__content-container {
@@ -559,7 +584,7 @@
 .usage-more__content-title {
   font-size: 38px;
   line-height: 44px;
-  font-weight: 400;
+  font-weight: 300;
   color: #c29e71;
 
   @media screen and (max-width: $tablet) {
@@ -574,6 +599,7 @@
   font-size: 22px;
   line-height: 26px;
   color: white;
+  font-weight: 300;
 
   @media screen and (max-width: $tablet) {
     font-size: 16px;
@@ -584,7 +610,7 @@
 .usage-more__articles-title {
   font-size: 38px;
   line-height: 44px;
-  font-weight: 400;
+  font-weight: 300;
   color: #c29e71;
   margin-top: 60px;
 
