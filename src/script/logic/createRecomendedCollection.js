@@ -14,7 +14,7 @@ function createRecomendedCollection(collection, whereToAdd) {
   collectionImage.setAttribute("src", collection.img);
   collectionImage.setAttribute(
     "alt",
-    `Коллекция натурального линолеума мармолеум ${collection.name}`
+    `Коллекция натурального линолеума натуральный линолеум ${collection.name}`
   );
   collectionLink.setAttribute("href", collection.link);
 
